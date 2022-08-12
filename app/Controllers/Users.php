@@ -72,7 +72,7 @@ class Users extends ResourceController
 
         $data = $this->request->getPost();
         $this->users->insert($data);
-        return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Disimpan');
+        return redirect()->to(site_url('users'))->with('pesan', 'Data Berhasil Disimpan');
         
     }
 
@@ -128,7 +128,7 @@ class Users extends ResourceController
         // Update data
         $data = $this->request->getPost();
         $this->users->update($id, $data);
-        return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Diperbarui');
+        return redirect()->to(site_url('users'))->with('pesan', 'Data Berhasil Diperbarui');
     }
 
 
@@ -137,7 +137,7 @@ class Users extends ResourceController
     {
         // Hapus Sementara
         $this->users->where('id_admin', $id)->delete();
-        return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Dihapus');
+        return redirect()->to(site_url('users'))->with('pesan', 'Data Berhasil Dihapus');
     }
     public function trash()
     {
@@ -160,7 +160,7 @@ class Users extends ResourceController
                 ->update();
         }
         if ($this->db->affectedRows() > 0) {
-            return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Dipulihkan');
+            return redirect()->to(site_url('users'))->with('pesan', 'Data Berhasil Dipulihkan');
         }
     }
 
@@ -168,10 +168,10 @@ class Users extends ResourceController
     {
         if ($id != null) { //hapus permanen 1 data
             $this->users->delete($id, true);
-            return redirect()->to(site_url('user/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
+            return redirect()->to(site_url('users/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
         } else { // hapus permanen all data
             $this->users->purgeDeleted();
-            return redirect()->to(site_url('user/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
+            return redirect()->to(site_url('users/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
         }
     }
 }
