@@ -2,10 +2,11 @@
 
 namespace App\Controllers;
 
+use App\Models\MerkModel;
 use App\Models\BarangModel;
 use App\Models\KategoriModel;
-use App\Models\MerkModel;
 use CodeIgniter\RESTful\ResourceController;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Barang extends ResourceController
 {

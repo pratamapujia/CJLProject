@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\SalesModel;
 use CodeIgniter\RESTful\ResourceController;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Sales extends ResourceController
 {
