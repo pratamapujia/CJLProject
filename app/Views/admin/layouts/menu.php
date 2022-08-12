@@ -33,7 +33,7 @@
       </a>
     </li>
     <li class="sidebar-item  ">
-      <a href="<?= site_url('user'); ?>" class='sidebar-link'>
+      <a href="<?= site_url('users'); ?>" class='sidebar-link'>
         <i class="bi bi-person-rolodex"></i>
         <span>Data User</span>
       </a>
