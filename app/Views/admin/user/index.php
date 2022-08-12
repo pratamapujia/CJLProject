@@ -39,7 +39,7 @@
             </tr>
           </thead>
           <tbody>
-            <?php foreach ($user as $key => $value) : ?>
+            <?php foreach ($users as $key => $value) : ?>
               <tr>
                 <td><?= $key + 1; ?></td>
                 <td><?= $value->nama_admin; ?></td>
