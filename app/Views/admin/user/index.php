@@ -32,9 +32,9 @@
             <tr>
               <th>No</th>
               <th>Nama</th>
-              <th>Telepon</th>
-              <th>Alamat</th>
-              <th>Tanggal Lahir</th>
+              <th>E-mail</th>
+              <th>Username</th>
+              <th>Password</th>
               <th>Action</th>
             </tr>
           </thead>
