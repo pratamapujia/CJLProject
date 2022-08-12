@@ -11,8 +11,8 @@
   <div class="page-title">
     <div class="row">
       <div class="col-12 col-md-6 order-md-1 order-last">
-        <h3>Data Admin yang dihapus Sementara</h3>
-        <p class="text-subtitle">Halaman ini berisikan data - data Admin yang telah dihapus sebelumnya. <br> User bisa <b class="text-danger">Merestore</b> data admin dan <b class="text-danger">Menghapus</b> data admin secara <b class="text-danger">Permanen.</b></p>
+        <h3>Data Admin</h3>
+        <p class="text-subtitle">Halaman ini berisikan data - data Admin yang aktif. <br> Admin bisa <b class="text-danger">Menambah</b> data user, <b class="text-danger">Mengubah</b> data, dan <b class="text-danger">Menghapus</b> data.</p>
       </div>
     </div>
   </div>
@@ -23,15 +23,8 @@
     <div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>"></div>
     <div class="card">
       <div class="card-header">
-        <a href="<?= site_url('users'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
-        <div class="float-end">
-          <a href="<?= site_url('users/restore'); ?>" class="btn btn-success"><i class="bi bi-recycle"></i> Restore All</a>
-          <form action="<?= site_url('/users/hapus/'); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
-            <?= csrf_field(); ?>
-            <input type="hidden" name="_method" value="DELETE">
-            <button class="btn btn-danger"><i class="bi bi-trash3"></i> Delete All Permanent</button>
-          </form>
-        </div>
+        <a href="<?= site_url('user/new'); ?>" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Tambah Data</a>
+        <a href="<?= site_url('user/trash'); ?>" class="btn btn-danger float-end" data-bs-toggle="tooltip" data-bs-placement="left" title="Trash"><i class="bi bi-trash3"></i></a>
       </div>
       <div class="card-body">
         <table class="table table-striped" id="table1">
@@ -54,11 +47,11 @@
                 <td><?= $value->username; ?></td>
                 <td><?= $value->password; ?></td>
                 <td>
-                  <a href="<?= site_url('/users/restore/' . $value->id_admin); ?>" class="btn btn-success btn-sm"><i class="bi bi-recycle"></i> Restore</a>
-                  <form action="<?= site_url('/users/hapus/' . $value->id_admin; ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
+                  <a href="<?= site_url('user/' . $value->id_admin . '/edit'); ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Data"><i class="bi bi-pencil-square"></i></a>
+                  <form action="<?= site_url('user/' . $value->id_admin); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Hapus Permanen</button>
+                    <button class="btn btn-danger btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
                   </form>
                 </td>
               </tr>

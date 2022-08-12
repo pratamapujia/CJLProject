@@ -42,29 +42,29 @@ $routes->get('/', 'Home::index');
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara
 $routes->get('barang/trash', 'Barang::trash'); //hapus sementara
-$routes->get('users/trash', 'User::trash'); //hapus sementara
+$routes->get('user/trash', 'User::trash'); //hapus sementara
 
 $routes->get('sales/restore/(:any)', 'Sales::restore/$1'); //restore 1 data
 $routes->get('merk/restore/(:any)', 'Merk::restore/$1'); //restore 1 data
-$routes->get('users/restore/(:any)', 'User::restore/$1'); //restore 1 data
+$routes->get('user/restore/(:any)', 'User::restore/$1'); //restore 1 data
 
 $routes->get('sales/restore', 'Sales::restore'); //restore all
 $routes->get('merk/restore', 'Merk::restore'); //restore all
-$routes->get('users/restore', 'User::restore'); //restore all
+$routes->get('user/restore', 'User::restore'); //restore all
 
 $routes->delete('sales/hapus/(:any)', 'Sales::hapus/$1'); //hapus permanen 1 data
 $routes->delete('merk/hapus/(:any)', 'Merk::hapus/$1'); //hapus permanen 1 data
-$routes->delete('users/hapus/(:any)', 'User::hapus/$1'); //hapus permanen 1 data
+$routes->delete('user/hapus/(:any)', 'User::hapus/$1'); //hapus permanen 1 data
 
 $routes->delete('/sales/hapus', 'Sales::hapus'); //hapus permanen all
 $routes->delete('merk/hapus', 'Merk::hapus'); //hapus permanen all
-$routes->delete('/users/hapus', 'User::hapus'); //hapus permanen all
+$routes->delete('/user/hapus', 'User::hapus'); //hapus permanen all
 
 $routes->resource('sales');
 $routes->resource('merk');
 $routes->resource('kategori');
 $routes->resource('barang');
-$routes->resource('users');
+$routes->resource('user');
 
 
 

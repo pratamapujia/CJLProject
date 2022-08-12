@@ -15,7 +15,7 @@
       </div>
       <div class="col-12 col-md-6 order-md-2 order-first">
         <div class="float-start float-lg-end">
-          <a href="<?= site_url('users'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
+          <a href="<?= site_url('user'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
         </div>
         <!-- <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
           <ol class="breadcrumb">
