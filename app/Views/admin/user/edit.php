@@ -15,7 +15,7 @@
       </div>
       <div class="col-12 col-md-6 order-md-2 order-first">
         <div class="float-start float-lg-end">
-          <a href="<?= site_url('user'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
+          <a href="<?= site_url('users'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
         </div>
         <!-- <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
           <ol class="breadcrumb">
@@ -31,7 +31,7 @@
     <div class="card">
       <div class="card-body">
         <?php $validation = \Config\Services::validation(); ?>
-        <form action="<?= site_url('users/' . $user->id_admin); ?>" class="form" method="POST" autocomplete="off">
+        <form action="<?= site_url('users/' . $users->id_admin); ?>" class="form" method="POST" autocomplete="off">
           <div class="row">
             <?= csrf_field(); ?>
             <input type="hidden" name="_method" value="PATCH">

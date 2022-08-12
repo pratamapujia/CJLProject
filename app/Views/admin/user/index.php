@@ -23,8 +23,8 @@
     <div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>"></div>
     <div class="card">
       <div class="card-header">
-        <a href="<?= site_url('user/new'); ?>" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Tambah Data</a>
-        <a href="<?= site_url('user/trash'); ?>" class="btn btn-danger float-end" data-bs-toggle="tooltip" data-bs-placement="left" title="Trash"><i class="bi bi-trash3"></i></a>
+        <a href="<?= site_url('users/new'); ?>" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Tambah Data</a>
+        <a href="<?= site_url('users/trash'); ?>" class="btn btn-danger float-end" data-bs-toggle="tooltip" data-bs-placement="left" title="Trash"><i class="bi bi-trash3"></i></a>
       </div>
       <div class="card-body">
         <table class="table table-striped" id="table1">
@@ -47,8 +47,8 @@
                 <td><?= $value->username; ?></td>
                 <td><?= $value->password; ?></td>
                 <td>
-                  <a href="<?= site_url('user/' . $value->id_admin . '/edit'); ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Data"><i class="bi bi-pencil-square"></i></a>
-                  <form action="<?= site_url('user/' . $value->id_admin); ?>" method="POST" class="d-inline">
+                  <a href="<?= site_url('users/' . $value->id_admin . '/edit'); ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Data"><i class="bi bi-pencil-square"></i></a>
+                  <form action="<?= site_url('users/' . $value->id_admin); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
                     <button class="btn btn-danger btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>

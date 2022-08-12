@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\UserModel;
+use App\Models\UsersModel;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\Exceptions\PageNotFoundException;
 
@@ -11,7 +11,7 @@ class Users extends ResourceController
 
     function __construct()
     {
-        $this->users = new UserModel();
+        $this->users = new UsersModel();
     }
     
 
