@@ -6,18 +6,18 @@ use App\Models\UserModel;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\Exceptions\PageNotFoundException;
 
-class User extends ResourceController
+class Users extends ResourceController
 {
 
     function __construct()
     {
-        $this->user = new UserModel();
+        $this->users = new UserModel();
     }
     
 
     public function index()
     {
-        $data['users'] = $this->user->findAll();
+        $data['users'] = $this->users->findAll();
         return view('admin/user/index', $data);
     }
 
@@ -71,7 +71,7 @@ class User extends ResourceController
         }
 
         $data = $this->request->getPost();
-        $this->user->insert($data);
+        $this->users->insert($data);
         return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Disimpan');
         
     }
@@ -79,9 +79,9 @@ class User extends ResourceController
     
     public function edit($id = null)
     {
-        $user = $this->user->find($id);
-        if (is_object($user)) {
-            $data['user'] = $user;
+        $users = $this->users->find($id);
+        if (is_object($users)) {
+            $data['users'] = $users;
             return view('admin/user/edit', $data);
         } else {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
@@ -127,7 +127,7 @@ class User extends ResourceController
 
         // Update data
         $data = $this->request->getPost();
-        $this->user->update($id, $data);
+        $this->users->update($id, $data);
         return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Diperbarui');
     }
 
@@ -136,13 +136,13 @@ class User extends ResourceController
     public function delete($id = null)
     {
         // Hapus Sementara
-        $this->user->where('id_admin', $id)->delete();
+        $this->users->where('id_admin', $id)->delete();
         return redirect()->to(site_url('user'))->with('pesan', 'Data Berhasil Dihapus');
     }
     public function trash()
     {
         // Menampilkan data yang dihapus sementara
-        $data['users'] = $this->user->onlyDeleted()->findAll();
+        $data['users'] = $this->users->onlyDeleted()->findAll();
         return view('admin/user/trash', $data);
     }
     public function restore($id = null)
@@ -167,10 +167,10 @@ class User extends ResourceController
     public function hapus($id = null)
     {
         if ($id != null) { //hapus permanen 1 data
-            $this->user->delete($id, true);
+            $this->users->delete($id, true);
             return redirect()->to(site_url('user/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
         } else { // hapus permanen all data
-            $this->user->purgeDeleted();
+            $this->users->purgeDeleted();
             return redirect()->to(site_url('user/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
         }
     }
