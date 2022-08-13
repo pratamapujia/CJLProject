@@ -41,20 +41,20 @@
                 <div class="carousel-item active">
                   <div class="row justify-content-center" style="padding: 20px;">
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/weida.png" class="card-img-top" alt="WEIDA">
+                        <img src="/assets/img/logo/weida.png" class="card-img-top" alt="WEIDA">
                     </div>
 
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/dixon.jpg" class="card-img-top" alt="DIXON">
+                        <img src="/assets/img/logo/dixon.jpg" class="card-img-top" alt="DIXON">
                       
                     </div>
               
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/fullmark.jpg" class="card-img-top" alt="FULLMARK">
+                        <img src="/assets/img/logo/fullmark.jpg" class="card-img-top" alt="FULLMARK">
                       
                     </div>
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/bositools.png" class="card-img-top" alt="BOSI TOOLS">
+                        <img src="/assets/img/logo/bositools.png" class="card-img-top" alt="BOSI TOOLS">
                       
                     </div>
                 </div>
@@ -62,22 +62,22 @@
                 <div class="carousel-item">
                   <div class="row justify-content-center" style="padding: 20px;">
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/J&W.jpg" class="card-img-top" alt="J&W">
+                        <img src="/assets/img/logo/J&W.jpg" class="card-img-top" alt="J&W">
                       
                     </div>
 
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/Besdia.jpg" class="card-img-top" alt="Besdia">
+                        <img src="/assets/img/logo/Besdia.jpg" class="card-img-top" alt="Besdia">
                       
                     </div>
 
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/Carmar.jpg" class="card-img-top" alt="CarMar">
+                        <img src="/assets/img/logo/Carmar.jpg" class="card-img-top" alt="CarMar">
                       
                     </div>
 
                     <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/Arntz.jpg" class="card-img-top" alt="Arntz">
+                        <img src="/assets/img/logo/Arntz.jpg" class="card-img-top" alt="Arntz">
                       
                     </div>
                 </div>
@@ -85,22 +85,22 @@
                 <div class="carousel-item">
                   <div class="row justify-content-center" style="padding: 20px;">
                     <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/vertex.png" class="card-img-top" alt="VERTEX">
+                        <img src="/assets/img/logo/vertex.png" class="card-img-top" alt="VERTEX">
                       
                     </div>
 
                     <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/seayac.jpg" class="card-img-top" alt="SEAYAC">
+                        <img src="/assets/img/logo/seayac.jpg" class="card-img-top" alt="SEAYAC">
                       
                     </div>
 
                     <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/waytrain.jpg" class="card-img-top" alt="WAYTRAIN">
+                        <img src="/assets/img/logo/waytrain.jpg" class="card-img-top" alt="WAYTRAIN">
                       
                     </div>
 
                     <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-                        <img src="/assets/img/Logo/sanou.jpg" class="card-img-top" alt="SAN OU">
+                        <img src="/assets/img/logo/sanou.jpg" class="card-img-top" alt="SAN OU">
                       
                     </div>
                 </div>
