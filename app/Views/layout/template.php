@@ -13,12 +13,12 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/font-awesome/font-awesome.css" />
-    <link rel="stylesheet" href="/font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/styles.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/style.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/bootstrap.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/font-awesome/font-awesome.css" />
+    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/font-awesome/font-awesome.min.css" />
   </head>
 <body>
 
@@ -32,7 +32,7 @@
           <div class="col-md-4">
             <h2>
               <a href="/">
-                <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
+                <img src="/assets/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
             <h4 style="color: red"><b>Metalworking and Machinery</b></h4>
