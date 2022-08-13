@@ -37,7 +37,18 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
+$routes->get('/', 'Pages::index');
 $routes->get('/CJL/admin', 'Home::index');
+$routes->get('/about', 'Pages::about');
+$routes->get('/promo', 'Pages::promo');
+$routes->get('/newproducts', 'Pages::newproducts');
+$routes->get('/mesin', 'Pages::mesin');
+$routes->get('/machinetool', 'Pages::machinetool');
+$routes->get('/cuttingtool', 'Pages::cuttingtool');
+$routes->get('/measuringtool', 'Pages::measuringtool');
+$routes->get('/handtool', 'Pages::handtool');
+$routes->get('/cuttingcoolant', 'Pages::cuttingcoolant');
+$routes->get('/abrasive', 'Pages::abrasive');
 
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara

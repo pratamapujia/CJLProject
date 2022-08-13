@@ -6,6 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('admin/index');
+		$data = [
+			'title' => 'CIPTA JAYA LESTARI'
+		];
+
+       return view('pages/home', $data);
     }
 }
