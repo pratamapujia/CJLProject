@@ -129,10 +129,6 @@ use Faker\Provider\Base;
             <div class="float-start">
               <p>&copy; <?= DATE('Y'); ?> Cipta Jaya Lestari</p>
             </div>
-            <div class="float-end">
-              <p>Develop with <span class="text-danger"><i class="bi bi-heart icon-mid"></i></span>
-                by <a href="#">PPA</a></p>
-            </div>
           </div>
         </footer>
       </div>
