@@ -1,0 +1,524 @@
+.footer_agileinfo_w3 {
+  padding: 4em 0;
+  background-color: #0dcaf0;
+}
+
+.footer_inner_info_w3ls_agileits {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shop-button a {
+  background: #000;
+  color: #fff;
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.shop-button a:hover,
+.shop-button.two a:hover {
+  background: #0dcaf0;
+  color: #ffffff;
+}
+
+.shop-button.two a {
+  background: #000000;
+}
+
+.navbar-toggler {
+  color: #000000;
+}
+
+.mid_slider_w3lsagile {
+  background: linear-gradient(to bottom right, gray, rgb(247, 246, 246));
+}
+
+.mid_slider_text h5 {
+  font-size: 23px;
+  margin-top: 121px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.mid_slider_text {
+  padding: 0em 3em;
+}
+
+.mid_slider_text h5 {
+  font-size: 19px;
+  margin-top: 117px;
+}
+
+.mid_slider_text h5 {
+  font-size: 17px;
+  margin-top: 78px;
+}
+
+.mid_slider_text {
+  padding: 0em 1em;
+}
+
+.mid_slider_text {
+  padding: 2em 1em;
+}
+
+.mid_slider_text h5 {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.mid_slider_info {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  display: none;
+}
+
+.carousel-control {
+  left: -66px;
+  height: 40px;
+  width: 40px;
+  padding: 7;
+  background: none;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin-top: 84px;
+  color: #000;
+  box-shadow: none;
+  background-image: none !important;
+  opacity: 0.9;
+  line-height: 34px;
+}
+
+.carousel-control.right {
+  left: -66px;
+  top: 66px;
+}
+
+.carousel-control.right {
+  left: 312px;
+  top: 1px;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  display: block;
+  padding: 0;
+  margin-bottom: 0;
+  line-height: 1.42857143;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+.slidering {
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .mid_slider_w3lsagile {
+    background: #fbc738;
+    display: none;
+  }
+
+  .footer_inner_info_w3ls_agileits {
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+  }
+
+  .footer_agileinfo_w3 {
+    padding: 4em 0;
+    background: #fff;
+  }
+}
+
+@media (max-width: 384px) {
+  .cd-header-buttons {
+    top: 41px;
+    right: 51px;
+  }
+
+  .banner-top,
+  .banner-top1,
+  .banner-top2,
+  .banner-top3 {
+    min-height: 370px;
+  }
+
+  .banner-info-wthree h3 {
+    font-size: 3.5em;
+  }
+
+  .callbacks_tabs {
+    bottom: 16%;
+    left: 36%;
+    z-index: 3;
+  }
+
+  ul.top_icons {
+    left: 39%;
+    margin-top: 2em;
+    bottom: 33%;
+  }
+
+  .grid_sec_info {
+    padding: 3em 2em;
+    margin-bottom: -49px;
+    height: 284px;
+  }
+
+  .carousel-control.right {
+    left: 312px;
+    top: 1px;
+  }
+
+  .newsletter_w3layouts_agile {
+    padding: 2em 0em;
+  }
+
+  .product-shoe-info {
+    padding: 15px;
+    width: 46%;
+    margin: 0.4em;
+    float: left;
+  }
+
+  .product-shoe-info-trx {
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+  }
+
+  .banner_top.innerpage {
+    min-height: 220px;
+  }
+
+  .social-nav li {
+    margin: 0 1px;
+  }
+
+  .contact-map iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .newsletter_w3layouts_agile {
+    padding: 3em 2em;
+  }
+
+  .grid_sec_info {
+    padding: 4em 3em;
+  }
+
+  .mid_slider_text h5 {
+    font-size: 17px;
+    margin-top: 78px;
+  }
+
+  .mid_slider_text {
+    padding: 0em 1em;
+  }
+
+  .carousel-control {
+    border-radius: 50%;
+    margin-top: 51px;
+  }
+
+  .search-hotel input[type="search"] {
+    width: 75%;
+  }
+}
+
+@media (max-width: 991px) {
+  .left-ads-display {
+    padding: 10px;
+    margin-top: 2em;
+  }
+
+  .product-shoe-info {
+    padding: 10px;
+    width: 48%;
+    margin: 0.6em;
+    float: left;
+  }
+
+  .sign-gd {
+    margin: 2em 0;
+  }
+
+  .sign-gd.flickr-post {
+    margin: 2em 0 0 0;
+  }
+
+  .sign-gd-two {
+    margin-bottom: 2em;
+  }
+
+  .mid_slider_text {
+    padding: 2em 1em;
+  }
+
+  .mid_slider_text h5 {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .carousel-control {
+    margin-top: 80px;
+    left: 16px;
+  }
+
+  .top_nav_right {
+    right: 4.3%;
+    margin-top: 48px;
+  }
+
+  .style-image-1_info {
+    padding: 3em 3em;
+    height: 284px;
+  }
+
+  .style-grid-2-text_info h3 {
+    font-size: 23px;
+  }
+
+  .cd-header-buttons {
+    top: 47px;
+    right: 124px;
+  }
+
+  .banner-info-wthree h3 {
+    font-size: 7em;
+  }
+
+  .banner-info-wthree p {
+    font-size: 1em;
+  }
+
+  .style-grid-1-text,
+  .style-grid-2-text {
+    padding: 3em 2em;
+  }
+
+  .carousel-control.right {
+    left: 14px;
+    top: 66px;
+  }
+
+  ul.short {
+    padding: 10em 0em 0 5em;
+  }
+
+  .product-men.women_two {
+    margin: 0;
+  }
+
+  .callbacks_tabs {
+    bottom: 16%;
+    left: 43%;
+  }
+
+  .add-review input[type="text"],
+  .add-review input[type="email"],
+  .add-review textarea {
+    width: 100%;
+  }
+
+  .add-review input[type="email"] {
+    margin-left: 0;
+    margin-top: 2%;
+  }
+
+  .add-review input[type="submit"] {
+    margin-bottom: 2em;
+  }
+
+  .news-right {
+    margin-top: 2em;
+  }
+
+  .bar-grids {
+    padding: 5em 2em;
+  }
+
+  .mid_services_img {
+    min-height: 445px;
+  }
+
+  #staplesbmincart {
+    left: 50%;
+    top: 16.9%;
+    width: 420px;
+  }
+
+  .check_box_one {
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 667px) {
+  .carousel-control {
+    margin-top: 30px;
+  }
+
+  .logo {
+    left: 3%;
+    top: 4.5%;
+  }
+
+  .mobile-nav-button {
+    margin: 24px 0 0 0;
+    right: 3%;
+  }
+
+  .cd-header-buttons {
+    top: 24px;
+    right: 61px;
+  }
+
+  .top_nav_right {
+    right: 5.5%;
+    margin-top: 25px;
+  }
+
+  .callbacks_tabs {
+    bottom: 16%;
+    left: 42%;
+  }
+
+  .grids_sec_2_left {
+    padding: 0;
+    float: left;
+    width: 100%;
+  }
+
+  .error_page form {
+    margin: 0 auto;
+    width: 76%;
+  }
+
+  .error_page h4 {
+    font-size: 9em;
+  }
+
+  .logo.inner_page_log {
+    left: 3%;
+    margin-top: 24px;
+  }
+
+  ul.short {
+    margin-top: 30px;
+  }
+
+  .banner_top.innerpage {
+    min-height: 185px;
+  }
+
+  #staplesbmincart {
+    left: 23%;
+    top: 16.9%;
+    width: 420px;
+  }
+
+  .news-right h4 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .top_nav_right {
+    right: 12.5%;
+    margin-top: 25px;
+  }
+
+  .style-grid-1-text h3,
+  .style-grid-2-text h3 {
+    font-size: 25px;
+  }
+
+  .style-grid-2-text_info h3 {
+    font-size: 21px;
+  }
+
+  .newsleft h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+  }
+
+  .newsright input[type="email"] {
+    width: 68%;
+  }
+
+  .sign-gd {
+    margin: 2em 0;
+    padding: 0;
+  }
+
+  .carousel-control.right {
+    left: 341px;
+    top: 1px;
+  }
+
+  .sign-gd-two {
+    padding: 0;
+  }
+
+  h3.head {
+    font-size: 2.2em;
+  }
+
+  .ads-grid_shop {
+    padding: 2em 0;
+  }
+
+  .inner_section_w3ls {
+    margin-top: 2em;
+  }
+
+  .newsright {
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  ul.top_icons {
+    left: 37%;
+    margin-top: 2em;
+    bottom: 33%;
+  }
+
+  .callbacks_tabs {
+    bottom: 16%;
+    left: 37%;
+  }
+}
