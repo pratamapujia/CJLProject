@@ -5,13 +5,13 @@
       <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/img/about1.jpg" class="d-block w-100" alt="Gambar 1" />
+            <img src="/assets/img/about1.jpg" class="d-block w-100" alt="Gambar 1" />
           </div>
           <div class="carousel-item">
-            <img src="/img/about2.jpg" class="d-block w-100" alt="Gambar 2" />
+            <img src="/assets/img/about2.jpg" class="d-block w-100" alt="Gambar 2" />
           </div>
           <div class="carousel-item">
-            <img src="/img/about3.jpg" class="d-block w-100" alt="Gambar 3" />
+            <img src="/assets/img/about3.jpg" class="d-block w-100" alt="Gambar 3" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
@@ -52,7 +52,7 @@
                             <h5>Pak Edi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Halo Pak Edi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -65,7 +65,7 @@
                             <h5>Pak Ilyas</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Halo Pak Ilyas, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -78,7 +78,7 @@
                             <h5>Pak Rochman</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Halo Pak Rochman, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -91,7 +91,7 @@
                             <h5>Pak Dwi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6285232777499&amp;text=Halo Pak Dwi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>

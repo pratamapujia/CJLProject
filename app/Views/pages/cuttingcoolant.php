@@ -5,7 +5,7 @@
       <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/img/Banner/cuttingcoolant.jpg" class="d-block w-100" alt="Gambar 1" />
+            <img src="/assets/img/Banner/cuttingcoolant.jpg" class="d-block w-100" alt="Gambar 1" />
           </div>
         </div>
       </div>

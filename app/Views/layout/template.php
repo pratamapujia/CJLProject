@@ -13,12 +13,12 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/styles.css" />
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/style.css" />
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/bootstrap.css" />
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/font-awesome/font-awesome.css" />
-    <link rel="stylesheet" href=" <?= base_url(); ?> /assets/font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/font-awesome/font-awesome.css" />
+    <link rel="stylesheet" href="/assets/font-awesome/font-awesome.min.css" />
   </head>
 <body>
 
@@ -85,7 +85,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Customer Service</b></p>
-                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Halo Sales Counter, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081335700084</span></a>
                 </div>
@@ -93,7 +93,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Edi</b></p>
-                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Halo Pak Edi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">08123170863</span></a>
                 </div>
@@ -101,7 +101,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Ilyas</b></p>
-                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Halo Pak Ilyas, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081254693810</span></a>
                 </div>
@@ -109,7 +109,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Rochman</b></p>
-                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Halo Pak Rochman, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081331637497</span></a>
                 </div>
@@ -117,7 +117,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Dwiono</b></p>
-                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6285232777499&amp;text=Halo Pak Dwiono, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">085232777499</span></a>
                 </div>

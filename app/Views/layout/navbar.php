@@ -2,7 +2,7 @@
       <div class="container">
                  
             <a class="navbar-brand" href="/" style="padding-top: 10px; padding-bottom: 10px">
-              <img src="/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
+              <img src="/assets/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
