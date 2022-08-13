@@ -37,7 +37,7 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
-$routes->get('/', 'Home::index');
+$routes->get('/CJL/admin', 'Home::index');
 
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara

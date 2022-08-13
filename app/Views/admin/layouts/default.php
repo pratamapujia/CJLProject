@@ -34,7 +34,7 @@ use Faker\Provider\Base;
         <div class="sidebar-header position-relative">
           <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-              <a href="<?= site_url('/'); ?>" style="height: 90px; width: 120px ;"><img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="Logo"></a>
+              <a href="<?= site_url('/CJL/admin'); ?>" style="height: 90px; width: 120px ;"><img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="Logo"></a>
             </div>
             <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
