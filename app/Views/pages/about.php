@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="/img/sales/edi.jpg" alt="Sales 1" />
+                            <img class="img-fluid rounded-circle mb-3" src="/assets/img/sales/edi.jpg" alt="Sales 1" />
                             <h5>Pak Edi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="/img/sales/ilyas.jpg" alt="Sales 2" />
+                            <img class="img-fluid rounded-circle mb-3" src="/assets/img/sales/ilyas.jpg" alt="Sales 2" />
                             <h5>Pak Ilyas</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="/img/sales/sales3.jpg" alt="Sales 3" />
+                            <img class="img-fluid rounded-circle mb-3" src="/assets/img/sales/sales3.jpg" alt="Sales 3" />
                             <h5>Pak Rochman</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="/img/sales/sales4.jpg" alt="Sales 4" />
+                            <img class="img-fluid rounded-circle mb-3" src="/assets/img/sales/sales4.jpg" alt="Sales 4" />
                             <h5>Pak Dwi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
