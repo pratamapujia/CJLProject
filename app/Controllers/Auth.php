@@ -8,7 +8,7 @@ class Auth extends BaseController
 {
   public function __construct()
   {
-    $this->user = new UsersModel();
+    $this->users = new UsersModel();
   }
 
   public function index()
@@ -28,10 +28,10 @@ class Auth extends BaseController
   {
     $post = $this->request->getPost();
     $query = $this->db->table('users')->getWhere(['email' => $post['email']]);
-    $user = $query->getRow();
-    if ($user) {
-      if (password_verify($post['password'], $user->password)) {
-        $param = ['id_admin' => $user->id_admin];
+    $users = $query->getRow();
+    if ($users) {
+      if (password_verify($post['password'], $users->password)) {
+        $param = ['id_admin' => $users->id_admin];
         session()->set($param);
         return redirect()->to(site_url('/admin'));
       } else {
