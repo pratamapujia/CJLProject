@@ -26,7 +26,7 @@ $routes->setAutoRoute(false);
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
-//$routes->setAutoRoute(false);
+$routes->setAutoRoute(true);
 
 /*
  * --------------------------------------------------------------------
@@ -37,8 +37,12 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
-$routes->get('/', 'Pages::index');
-$routes->get('/CJL/admin', 'HomeAdmin::index');
+
+$routes->get('login', 'Auth::login');
+
+$routes->addRedirect('/', 'home');
+$routes->get('admin', 'Admin::index');
+// $routes->get('/', 'Pages::index');
 
 $routes->get('/about', 'Pages::about');
 $routes->get('/promo', 'Pages::promo');
@@ -72,16 +76,16 @@ $routes->delete('/sales/hapus', 'Sales::hapus'); //hapus permanen all
 $routes->delete('merk/hapus', 'Merk::hapus'); //hapus permanen all
 $routes->delete('/users/hapus', 'Users::hapus'); //hapus permanen all
 
-$routes->resource('sales');
-$routes->resource('merk');
-$routes->resource('kategori');
-$routes->resource('barang');
-$routes->resource('users');
+$routes->resource('sales', ['filter' => 'isLoggedIn']);
+$routes->resource('merk', ['filter' => 'isLoggedIn']);
+$routes->resource('kategori', ['filter' => 'isLoggedIn']);
+$routes->resource('barang', ['filter' => 'isLoggedIn']);
+$routes->resource('users', ['filter' => 'isLoggedIn']);
 
 
 
 /*
- * --------------------------------------------------------------------
+* --------------------------------------------------------------------
  * Additional Routing
  * --------------------------------------------------------------------
  *

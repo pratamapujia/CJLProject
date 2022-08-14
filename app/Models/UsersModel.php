@@ -12,4 +12,13 @@ class UsersModel extends Model
     protected $allowedFields    = ['nama_admin', 'email', 'username', 'password'];
     protected $useTimestamps    = true;
     protected $useSoftDeletes   = true;
+
+    // public function LoginAdmin($email, $password)
+    // {
+    //     return $this->db->table('users')
+    //         ->where([
+    //             'email' => $email,
+    //             'password' => $password,
+    //         ])->get()->getRowArray();
+    // }
 }

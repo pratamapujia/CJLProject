@@ -24,7 +24,7 @@ use Faker\Provider\Base;
   <!-- Sweet Alert 2 -->
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.css">
 
-  <link rel="shortcut icon" href="<?= base_url(); ?>/assets/img/icon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= base_url(); ?>/assets/img/icon/logocjl.png" type="image/x-icon">
 </head>
 
 <body>
@@ -79,19 +79,6 @@ use Faker\Provider\Base;
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- <ul class="navbar-nav ms-auto mb-lg-0">
-                <li class="nav-item dropdown me-1">
-                  <a class="nav-link active dropdown-toggle text-gray-600" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class='bi bi-envelope bi-sub fs-4'></i>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                    <li>
-                      <h6 class="dropdown-header">Mail</h6>
-                    </li>
-                    <li><a class="dropdown-item" href="#">No new mail</a></li>
-                  </ul>
-                </li>
-              </ul> -->
               <div class="dropdown ms-auto">
                 <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                   <div class="user-menu d-flex">
@@ -114,7 +101,7 @@ use Faker\Provider\Base;
                       Profile</a></li>
                   <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a></li>
+                  <li><a class="dropdown-item" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a></li>
                 </ul>
               </div>
             </div>

@@ -17,19 +17,19 @@ class DataUser extends Migration
             ],
             'nama_admin'     => [
                 'type'       => 'VARCHAR',
-                'constraint' => '60',
+                'constraint' => 60,
             ],
             'email'   => [
                 'type'       => 'VARCHAR',
-                'constraint' => '60',
+                'constraint' => 60,
             ],
             'username' => [
                 'type'        => 'VARCHAR',
-                'constraint' => '20'
+                'constraint' => 20,
             ],
             'password' => [
                 'type'        => 'VARCHAR',
-                'constraint' => '50'
+                'constraint' => 70,
             ],
             'created_at' => [
                 'type'        => 'DATETIME',
@@ -50,6 +50,6 @@ class DataUser extends Migration
 
     public function down()
     {
-        $this->forge->dropTable('sales');
+        $this->forge->dropTable('users');
     }
 }
