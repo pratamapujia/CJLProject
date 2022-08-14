@@ -13,19 +13,25 @@ class UserSeeder extends Seeder
                 'nama_admin'      => 'Kevin',
                 'email'     => 'kevinsuryaperdana@gmail.com',
                 'username'    => 'kvnsuryap',
-                'password' => password_hash('21101996', PASSWORD_BCRYPT),
+                'password' => ('21101996'),
             ],
             [
                 'nama_admin'      => 'Puji',
                 'email'     => 'pratamapujia@gmail.com',
                 'username'    => 'pratamapujia',
-                'password' => password_hash('adminpuji', PASSWORD_BCRYPT),
+                'password' => ('adminpuji'),
             ],
             [
                 'nama_admin'      => 'Fenny',
                 'email'     => 'fennyresav@gmail.com',
                 'username'    => 'fennyresav18',
-                'password' => password_hash('adminfenny', PASSWORD_BCRYPT),
+                'password' => ('adminfenny'),
+            ],
+            [
+                'nama_admin'      => 'Dwiono',
+                'email'     => 'gdwiono@yahoo.co.id',
+                'username'    => 'gdwiono',
+                'password' => ('admindwi'),
             ],
         ];
         $this->db->table('users')->insertBatch($data);
