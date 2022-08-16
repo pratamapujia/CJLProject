@@ -47,6 +47,7 @@ $routes->get('admin', 'Admin::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/promo', 'Pages::promo');
 $routes->get('/newproducts', 'Pages::newproducts');
+$routes->get('/detail', 'Pages::detail');
 $routes->get('/mesin', 'Pages::mesin');
 $routes->get('/machinetool', 'Pages::machinetool');
 $routes->get('/cuttingtool', 'Pages::cuttingtool');
