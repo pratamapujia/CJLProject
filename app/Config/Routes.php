@@ -41,19 +41,29 @@ $routes->setAutoRoute(true);
 $routes->get('login', 'Auth::login');
 
 $routes->addRedirect('/', 'home');
+$routes->get('home2', 'Home::halamanUtama');
 $routes->get('admin', 'Admin::index');
 // $routes->get('/', 'Pages::index');
 
-$routes->get('/about', 'Pages::about');
-$routes->get('/promo', 'Pages::promo');
-$routes->get('/newproducts', 'Pages::newproducts');
-$routes->get('/mesin', 'Pages::mesin');
-$routes->get('/machinetool', 'Pages::machinetool');
-$routes->get('/cuttingtool', 'Pages::cuttingtool');
-$routes->get('/measuringtool', 'Pages::measuringtool');
-$routes->get('/handtool', 'Pages::handtool');
-$routes->get('/cuttingcoolant', 'Pages::cuttingcoolant');
-$routes->get('/abrasive', 'Pages::abrasive');
+$routes->get('about', 'Pages::about');
+$routes->get('promo', 'Pages::promo');
+$routes->get('newproducts', 'Pages::newproducts');
+$routes->get('mesin', 'Pages::mesin');
+$routes->get('machinetool', 'Pages::machinetool');
+$routes->get('cuttingtool', 'Pages::cuttingtool');
+$routes->get('measuringtool', 'Pages::measuringtool');
+$routes->get('handtool', 'Pages::handtool');
+$routes->get('cuttingcoolant', 'Pages::cuttingcoolant');
+$routes->get('abrasive', 'Pages::abrasive');
+
+$routes->get('abouts', 'Home::about');
+$routes->get('machinery', 'Home::machinery');
+$routes->get('machinetools', 'Home::machinetool');
+$routes->get('cuttingtools', 'Home::cuttingtool');
+$routes->get('measuringtools', 'Home::measuringtool');
+$routes->get('handtools', 'Home::handtool');
+$routes->get('cuttingcoolants', 'Home::cuttingcoolant');
+$routes->get('abrasives', 'Home::abrasive');
 
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara
