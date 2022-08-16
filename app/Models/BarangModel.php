@@ -13,7 +13,7 @@ class BarangModel extends Model
     protected $useTimestamps    = true;
     // protected $useSoftDeletes   = true;
 
-    public function count($count)
+    function count($count)
     {
         $this->db->from('barang');
         $this->db->where('kode_kategori', $count);
@@ -30,7 +30,7 @@ class BarangModel extends Model
         return $query->getResult();
     }
 
-    public function getProduk($kode_kategori, $per_page, $start)
+    function getProduk($kode_kategori, $per_page, $start)
     {
         $this->db->select('barang.*, kategori.*, merk.*');
         $this->db->join('kategori', 'kategori.kode_kategori = barang.kode_kategori');
@@ -40,22 +40,22 @@ class BarangModel extends Model
         return $this->db->get('barang', $per_page, $start)->result_array();
     }
 
-    public function getKategori()
+    function getKategori()
     {
         return $this->db->get('kategori')->result();
     }
 
-    public function getModel()
+    function getModel()
     {
         return $this->db->get('model')->result();
     }
 
-    public function getMerk()
+    function getMerk()
     {
         return $this->db->get('merk')->result();
     }
 
-    public function addbarang()
+    function addbarang()
     {
         $kategori = $this->input->post('kategori');
 
@@ -99,7 +99,7 @@ class BarangModel extends Model
         }
     }
 
-    public function detailProduk($id_barang)
+    function detailProduk($id_barang)
     {
         $this->db->join('kategori', 'kategori.kode_kategori = barang.kode_kategori');
         $this->db->where('barang.id_barang', $id_barang);
