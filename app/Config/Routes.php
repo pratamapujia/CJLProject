@@ -65,6 +65,7 @@ $routes->get('measuringtools', 'Home::measuringtool');
 $routes->get('handtools', 'Home::handtool');
 $routes->get('cuttingcoolants', 'Home::cuttingcoolant');
 $routes->get('abrasives', 'Home::abrasive');
+
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara
 $routes->get('barang/trash', 'Barang::trash'); //hapus sementara
