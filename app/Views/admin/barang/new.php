@@ -43,7 +43,7 @@
                   <div class="form-group">
                     <label class="form-label">Merek Barang <strong class="text-danger">*</strong></label>
                     <select name="id_merk" class=" form-select <?= $validation->hasError('id_merk') ? 'is-invalid' : null ?>">
-                      <option value="" hidden> Pilih Merek</option>
+                      <option value="" hidden> Pilih Merk</option>
                       <?php foreach ($merk as $key => $value) : ?>
                         <option value="<?= $value->id_merk; ?>" <?= old('id_merk') == $value->id_merk ? 'selected' : null; ?>><?= $value->nama_merk; ?></option>
                       <?php endforeach ?>

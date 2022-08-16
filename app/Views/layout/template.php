@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/font-awesome/font-awesome.css" />
     <link rel="stylesheet" href="/assets/font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/css/frontend.css">
+    <link rel="stylesheet" href="/assets/css/frontend.min.css">
+  <link rel="stylesheet" href="/assets/css/global.css">
   </head>
 <body>
 
