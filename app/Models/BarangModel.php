@@ -69,31 +69,31 @@ class BarangModel extends Model
             $id = $query->id_barang + 1;
             $group = kategori_help($query->nama_kategori);
         } else {
-        if ($kategori == 0) {
+        if ($kategori == 1) {
             $id = 1000;
             $group = 'mesin';
         }
-        if ($kategori == 1) {
+        if ($kategori == 2) {
             $id = 2000;
             $group = 'machinetool';
         }
-        if ($kategori == 2) {
+        if ($kategori == 3) {
             $id = 3000;
             $group = 'cuttingtool';
         }
-        if ($kategori == 3) {
+        if ($kategori == 4) {
             $id = 4000;
             $group = 'measuringtool';
         }
-        if ($kategori == 4) {
+        if ($kategori == 5) {
             $id = 5000;
             $group = 'handtool';
         }
-        if ($kategori == 5) {
+        if ($kategori == 6) {
             $id = 6000;
             $group = 'cuttingcoolant';
         }
-        if ($kategori == 6) {
+        if ($kategori == 7) {
             $id = 7000;
             $group = 'abrasive';
         }
