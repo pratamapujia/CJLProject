@@ -97,6 +97,7 @@ class BarangModel extends Model
             $id = 7000;
             $group = 'abrasive';
         }
+        }
     }
 
     function detailProduk($id_barang)
