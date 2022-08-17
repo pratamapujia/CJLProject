@@ -45,26 +45,27 @@ $routes->get('home2', 'Home::halamanUtama');
 $routes->get('admin', 'Admin::index');
 // $routes->get('/', 'Pages::index');
 
-$routes->get('/about', 'Pages::about');
-$routes->get('/promo', 'Pages::promo');
-$routes->get('/newproducts', 'Pages::newproducts');
-$routes->get('/detail', 'Pages::detail');
-$routes->get('/mesin', 'Pages::mesin');
-$routes->get('/machinetool', 'Pages::machinetool');
-$routes->get('/cuttingtool', 'Pages::cuttingtool');
-$routes->get('/measuringtool', 'Pages::measuringtool');
-$routes->get('/handtool', 'Pages::handtool');
-$routes->get('/cuttingcoolant', 'Pages::cuttingcoolant');
-$routes->get('/abrasive', 'Pages::abrasive');
+// $routes->get('/about', 'Pages::about');
+// $routes->get('/promo', 'Pages::promo');
+// $routes->get('/newproducts', 'Pages::newproducts');
+// $routes->get('/detail', 'Pages::detail');
+// $routes->get('/mesin', 'Pages::mesin');
+// $routes->get('/machinetool', 'Pages::machinetool');
+// $routes->get('/cuttingtool', 'Pages::cuttingtool');
+// $routes->get('/measuringtool', 'Pages::measuringtool');
+// $routes->get('/handtool', 'Pages::handtool');
+// $routes->get('/cuttingcoolant', 'Pages::cuttingcoolant');
+// $routes->get('/abrasive', 'Pages::abrasive');
 
 $routes->get('abouts', 'Home::about');
 $routes->get('machinery', 'Home::machinery');
-$routes->get('machinetools', 'Home::machinetool');
-$routes->get('cuttingtools', 'Home::cuttingtool');
-$routes->get('measuringtools', 'Home::measuringtool');
-$routes->get('handtools', 'Home::handtool');
-$routes->get('cuttingcoolants', 'Home::cuttingcoolant');
-$routes->get('abrasives', 'Home::abrasive');
+$routes->get('machinetool', 'Home::machinetool');
+$routes->get('cuttingtool', 'Home::cuttingtool');
+$routes->get('measuringtool', 'Home::measuringtool');
+$routes->get('handtool', 'Home::handtool');
+$routes->get('cuttingcoolant', 'Home::cuttingcoolant');
+$routes->get('abrasive', 'Home::abrasive');
+$routes->get('katalog/detail/(:num)', 'Home::detail/$1');
 
 $routes->get('sales/trash', 'Sales::trash'); //hapus sementara
 $routes->get('merk/trash', 'Merk::trash'); //hapus sementara

@@ -560,7 +560,7 @@ section {
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   color: #012970;
 }
@@ -570,8 +570,15 @@ section {
   line-height: 24px;
 }
 /* .about .img, */
-.about img {
-  border-radius: 30px;
+.about .img-content {
+  border-radius: 25px;
+  width: 100%;
+  height: 400px;
+}
+.about .img-merk {
+  margin-bottom: 50%;
+  margin-left: 20px;
+  position: absolute;
 }
 
 .about .btn-read-more {
@@ -1467,12 +1474,12 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
+  opacity: 1;
   transition: 0.3s;
 }
 
 .clients .clients-slider .swiper-slide img:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .clients .clients-slider .swiper-pagination {

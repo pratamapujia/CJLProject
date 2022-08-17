@@ -45,12 +45,12 @@
           <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="<?= site_url('machinery'); ?>">Machinery</a></li>
-              <li><a href="<?= site_url('machinetools'); ?>">Machine Tool</a></li>
-              <li><a href="<?= site_url('cuttingtools'); ?>">Cutting Tool</a></li>
-              <li><a href="<?= site_url('measuringtools'); ?>">Measuring Tool</a></li>
-              <li><a href="<?= site_url('handtools'); ?>">Hand Tool</a></li>
-              <li><a href="<?= site_url('cuttingcoolants'); ?>">Cutting Coolant</a></li>
-              <li><a href="<?= site_url('abrasives'); ?>">Abrasive</a></li>
+              <li><a href="<?= site_url('machinetool'); ?>">Machine Tool</a></li>
+              <li><a href="<?= site_url('cuttingtool'); ?>">Cutting Tool</a></li>
+              <li><a href="<?= site_url('measuringtool'); ?>">Measuring Tool</a></li>
+              <li><a href="<?= site_url('handtool'); ?>">Hand Tool</a></li>
+              <li><a href="<?= site_url('cuttingcoolant'); ?>">Cutting Coolant</a></li>
+              <li><a href="<?= site_url('abrasive'); ?>">Abrasive</a></li>
             </ul>
           </li>
           <li><a class="nav-link" href="<?= site_url('abouts'); ?>">About Us</a></li>

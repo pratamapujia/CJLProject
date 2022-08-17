@@ -13,7 +13,6 @@
 
       <ol>
         <li><a href="<?= site_url('home'); ?>">Home</a></li>
-        <li>Catalogue</li>
         <li>Hand Tools</li>
       </ol>
     </div>
@@ -32,7 +31,7 @@
               <p class="card-title" style="color:#012970 ;">
                 <?= $value->nama_barang; ?>
               </p>
-              <a href="" class="btn btn-primary btn-block">Lihat Detail</a>
+              <a href="<?= site_url('katalog/detail/' . $value->id_barang); ?>" class="btn btn-primary btn-block">Lihat Detail</a>
             </div>
           </div>
         </div>
@@ -40,39 +39,6 @@
     </div>
     <?= $pager->links('default', 'pagination') ?>
   </section>
-
-  <!-- ======= Blog Section ======= -->
-  <!-- <section id="blog" class="blog">
-    <div class="container" data-aos="fade-up">
-      <div class="row">
-          <div class="col-lg-4 entries">
-            <article class="entry">
-              <div class="entry-img">
-                
-                <img src="" alt="" class="img-fluid">
-              </div>
-              <h2 class="entry-title">
-                
-              </h2>
-              <div class="entry-content">
-                <div class="read-more">
-                  <a href="">Lihat Detail</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        <div class="blog-pagination">
-          <ul class="justify-content-center">
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-  <!-- End Blog Section -->
 </main>
 
 <?= $this->endSection(); ?>

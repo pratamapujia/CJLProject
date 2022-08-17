@@ -6,8 +6,18 @@
 
 <?= $this->section('home'); ?>
 
+<!-- ======= Breadcrumbs ======= -->
+<section class="breadcrumbs">
+  <div class="container">
+
+    <ol>
+      <li><a href="<?= site_url('home'); ?>">Home</a></li>
+      <li>About Us</li>
+    </ol>
+  </div>
+</section><!-- End Breadcrumbs -->
 <!-- ======= Carousel Section ======= -->
-<div id="carouselku" class="carousel slide pt-5" data-bs-ride="carousel">
+<div id="carouselku" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?= base_url(); ?>/assets/img/about1.jpg" class="d-block w-100" alt="about">

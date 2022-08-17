@@ -7,7 +7,7 @@
 <?= $this->section('home'); ?>
 
 <!-- ======= Carousel Section ======= -->
-<div id="carouselku" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselku" class="carousel slide py-4" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?= base_url(); ?>/assets/img/slider1.jpg" class="d-block w-100" alt="slider">
@@ -32,8 +32,8 @@
 
 <main id="main">
 
-  <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients mt-5">
 
     <div class="container" data-aos="fade-up">
 
@@ -41,26 +41,19 @@
         <p>Our Products</p>
       </header>
 
-      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
-        <div class="swiper-wrapper">
-
+      <div class="clients-slider swiper-container">
+        <div class="swiper-wrapper align-items-center">
           <?php foreach ($merk as $key => $value) : ?>
             <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="profile mt-auto">
-                  <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" class="testimonial-img" alt="">
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+              <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" class="img-fluid" alt="">
+            </div>
           <?php endforeach; ?>
-
         </div>
         <div class="swiper-pagination"></div>
       </div>
-
     </div>
+  </section><!-- End Clients Section -->
 
-  </section><!-- End Testimonials Section -->
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
@@ -74,7 +67,7 @@
               Tersedia berbagai macam - macam mesin yang anda butuhkan untuk perusahaan anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -82,7 +75,7 @@
           </div>
         </div>
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/machine.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/machine.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
     </div>
@@ -90,7 +83,7 @@
     <div class="container mb-3" data-aos="fade-up">
       <div class="row gx-0">
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/machinetool.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/machinetool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
         <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
@@ -99,7 +92,7 @@
               Tersedia berbagai macam - macam tools untuk mesin yang anda punya!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('machinetools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -118,7 +111,7 @@
               Tersedia berbagai macam - macam Cutting Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('cuttingtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -126,7 +119,7 @@
           </div>
         </div>
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/cuttingtool.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/cuttingtool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
     </div>
@@ -134,7 +127,7 @@
     <div class="container mb-3" data-aos="fade-up">
       <div class="row gx-0">
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/measuringtool.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/measuringtool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
         <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
@@ -143,7 +136,7 @@
               Tersedia berbagai macam - macam Measuring Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('measuringtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -162,7 +155,7 @@
               Tersedia berbagai macam - macam Hand Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('handtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -170,7 +163,7 @@
           </div>
         </div>
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/handtool.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/handtool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
     </div>
@@ -178,7 +171,7 @@
     <div class="container mb-3" data-aos="fade-up">
       <div class="row gx-0">
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/cuttingcoolant.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/cuttingcoolant.jpg" class="img-content img-fluid shadow" alt="">
         </div>
         <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
@@ -187,7 +180,7 @@
               Tersedia berbagai macam - macam Cutting Coolant untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('cuttingcoolants'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -206,7 +199,7 @@
               Tersedia berbagai macam - macam Abrasive untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('pages/machinery'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('abrasives'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -214,7 +207,7 @@
           </div>
         </div>
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>/assets/img/abrasive.jpg" class="img-fluid shadow" alt="">
+          <img src="<?= base_url(); ?>/assets/img/abrasive.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
     </div>
