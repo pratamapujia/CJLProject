@@ -22,11 +22,11 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
           <i class="bi bi-chevron-left" style="color: #067fe2" aria-hidden="true"></i>
-          <span class="sr-only">Previous</span>
+          
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
           <i class="bi bi-chevron-right" style="color: #067fe2" aria-hidden="true"></i>
-          <span class="sr-only">Next</span>
+         
         </button>
       </div>
 </div>
