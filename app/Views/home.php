@@ -32,108 +32,14 @@
 </div>
 <!-- End Carousel -->
 
-<div class="container">
-  <div class="row" style="padding-top: 20px;">
-    <div class="col-12">
-      <div class="row head-panel align-items-center d-flex justify-content-between">
-        <header class="section-header">
-          <p>Our Products</p>
-        </header>
-      </div>
-    </div>
-  </div>
-  <div id="carouselProdukUnggulan" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row justify-content-center" style="padding: 20px;">
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/weida.png" class="card-img-top" alt="WEIDA">
-          </div>
-
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/dixon.jpg" class="card-img-top" alt="DIXON">
-
-          </div>
-
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/fullmark.jpg" class="card-img-top" alt="FULLMARK">
-
-          </div>
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/bositools.png" class="card-img-top" alt="BOSI TOOLS">
-
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row justify-content-center" style="padding: 20px;">
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/J&W.jpg" class="card-img-top" alt="J&W">
-
-          </div>
-
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/Besdia.jpg" class="card-img-top" alt="Besdia">
-
-          </div>
-
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/Carmar.jpg" class="card-img-top" alt="CarMar">
-
-          </div>
-
-          <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/Arntz.jpg" class="card-img-top" alt="Arntz">
-
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row justify-content-center" style="padding: 20px;">
-          <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/vertex.png" class="card-img-top" alt="VERTEX">
-
-          </div>
-
-          <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/seayac.jpg" class="card-img-top" alt="SEAYAC">
-
-          </div>
-
-          <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/waytrain.jpg" class="card-img-top" alt="WAYTRAIN">
-
-          </div>
-
-          <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
-            <img src="/assets/img/logo/sanou.jpg" class="card-img-top" alt="SAN OU">
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdukUnggulan" data-bs-slide="prev">
-      <i class="bi bi-chevron-left" style="color: #067fe2;" aria-hidden="true"></i>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselProdukUnggulan" data-bs-slide="next">
-      <i class="bi bi-chevron-right" style="color: #067fe2;" aria-hidden="true"></i>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-
 <main id="main">
 
   <!-- ======= Clients Section ======= -->
-  <!-- <section id="clients" class="clients mt-5">
-
+  <section id="clients" class="clients mt-5">
     <div class="container" data-aos="fade-up">
-
       <header class="section-header">
         <p>Our Products</p>
       </header>
-
       <div class="clients-slider swiper-container">
         <div class="swiper-wrapper align-items-center">
           <?php foreach ($merk as $key => $value) : ?>
@@ -145,13 +51,12 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- End Clients Section -->
 
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
-
     <div class="container mb-3" data-aos="fade-up">
       <div class="row gx-0">
         <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">

@@ -173,11 +173,13 @@
   new Swiper(".clients-slider", {
     speed: 400,
     loop: true,
+    loopFillGroupWithBlank: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
     },
-    slidesPerView: "auto",
+    slidesPerView: 5,
+    slidesPerGroup: 5,
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",

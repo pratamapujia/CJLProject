@@ -27,6 +27,8 @@
   <link href="<?= base_url(); ?>/assets/landing/vendor/aos/aos.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link href="<?= base_url(); ?>/assets/landing/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/landing/css/style.css" rel="stylesheet">
 
@@ -148,6 +150,7 @@
   <script src="<?= base_url(); ?>/assets/landing/vendor/bootstrap/js/bootstrap.bundle.js"></script>
   <script src="<?= base_url(); ?>/assets/landing/vendor/aos/aos.js"></script>
   <script src="<?= base_url(); ?>/assets/landing/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/landing/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="<?= base_url(); ?>/assets/landing/js/main.js"></script>
