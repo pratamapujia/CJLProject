@@ -83,8 +83,7 @@ use Faker\Provider\Base;
                 <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                   <div class="user-menu d-flex">
                     <div class="user-name text-end me-3">
-                      <h6 class="mb-0 text-gray-600">John Ducky</h6>
-                      <p class="mb-0 text-sm text-gray-600">Administrator</p>
+                      <p class="mb-0 text-sm text-gray-600"><b>Administrator</b></p>
                     </div>
                   </div>
                 </a>
