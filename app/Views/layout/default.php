@@ -25,15 +25,13 @@
   <link href="<?= base_url(); ?>/assets/css/bootstrap.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/aos/aos.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/remixicon/remixicon.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/landing/css/style.css" rel="stylesheet">
-  
+
 
 </head>
 
@@ -42,15 +40,15 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header sticky-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="/" class="logo d-flex align-items-center">
-            <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
-        </a>
-    <?= $this->include('layout/navbar'); ?>
+      <a href="/" class="logo d-flex align-items-center">
+        <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
+      </a>
+      <?= $this->include('layout/navbar'); ?>
 
     </div>
   </header><!-- End Header -->
 
-  
+
 
   <?= $this->renderSection('home'); ?>
 
@@ -131,11 +129,7 @@
   <!-- Vendor JS Files -->
   <script src="<?= base_url(); ?>/assets/landing/bootstrap/js/bootstrap.bundle.js"></script>
   <script src="<?= base_url(); ?>/assets/landing/aos/aos.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/php-email-form/validate.js"></script>
   <script src="<?= base_url(); ?>/assets/landing/swiper/swiper-bundle.min.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/purecounter/purecounter.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/glightbox/js/glightbox.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="<?= base_url(); ?>/assets/landing/js/main.js"></script>
