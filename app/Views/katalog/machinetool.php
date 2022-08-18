@@ -21,7 +21,7 @@
   <section class="p-5 container-fluid">
     <div class="row">
       <?php foreach ($barang as $key => $value) : ?>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card shadow-sm">
             <img src="<?= base_url(); ?>/assets/img/barang/<?= $value->gambar_barang; ?>" class="card-img" height="200" alt="">
             <div class="card-img-overlay">
