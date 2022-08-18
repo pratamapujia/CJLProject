@@ -41,13 +41,13 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="header sticky-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between collapse navbar-collapse">
 
       <a href="/" class="logo d-flex align-items-center">
         <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
       </a>
 
-      <nav class="collapse navbar-collapse navbar mx-auto">
+      <nav class="navbar mx-auto">
         <ul>
           <li><a class="nav-link" href="<?= site_url('home'); ?>">Home</a></li>
           <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
