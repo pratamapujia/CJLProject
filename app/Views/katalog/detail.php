@@ -50,7 +50,7 @@ foreach ($kategori as $key => $value) {
     <div class="container" data-aos="fade-up">
       <div class="row gx-0">
         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img height="60" class="img-merk" src="<?= base_url(); ?>/assets/img/logo/<?= $logo; ?>" alt="">
+          <!-- <img height="60" class="img-merk" src="<?= base_url(); ?>/assets/img/logo/<?= $logo; ?>" alt=""> -->
           <img src="<?= base_url(); ?>/assets/img/barang/<?= $barang->gambar_barang; ?>" class="img-content img-fluid" alt="">
         </div>
         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
