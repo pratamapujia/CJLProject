@@ -41,7 +41,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="header sticky-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between collapse navbar-collapse">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
         <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
@@ -70,6 +70,8 @@
 
     </div>
   </header><!-- End Header -->
+
+  <?= $this->include('layout/navbar'); ?>
 
   <?= $this->renderSection('home'); ?>
 
