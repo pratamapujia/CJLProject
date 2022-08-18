@@ -40,15 +40,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header sticky-top">
-    
-        
-    <?= $this->include('layout/navbar'); ?>
 
-    
-  </header><!-- End Header -->
-
-  
+  <?= $this->include('layout/navbar'); ?>
 
   <?= $this->renderSection('home'); ?>
 
