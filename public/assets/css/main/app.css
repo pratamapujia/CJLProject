@@ -17583,7 +17583,7 @@ body .bi:before {
   padding: 0;
 }
 #main #main-content {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .page-heading {
   margin: 0 0 2rem;
