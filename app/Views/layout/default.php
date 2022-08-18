@@ -31,8 +31,7 @@
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/landing/css/style.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/css/style.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/css/styles.css" rel="stylesheet">
+  
 
 </head>
 

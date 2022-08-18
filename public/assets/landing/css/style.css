@@ -11,6 +11,53 @@
 :root {
   scroll-behavior: smooth;
 }
+
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  display: none;
+}
+
+.carousel-control {
+  left: -66px;
+  height: 40px;
+  width: 40px;
+  padding: 7;
+  background: none;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin-top: 84px;
+  color: #000;
+  box-shadow: none;
+  background-image: none !important;
+  opacity: 0.9;
+  line-height: 34px;
+}
+
+.carousel-control.right {
+  left: -66px;
+  top: 66px;
+}
+
+.carousel-control.right {
+  left: 312px;
+  top: 1px;
+}
+
 .teks {
   padding-left: 20%;
   padding-right: 20%;
