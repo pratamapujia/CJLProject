@@ -43,19 +43,6 @@ $routes->get('login', 'Auth::login');
 $routes->addRedirect('/', 'home');
 $routes->get('home2', 'Home::halamanUtama');
 $routes->get('admin', 'Admin::index');
-// $routes->get('/', 'Pages::index');
-
-// $routes->get('/about', 'Pages::about');
-// $routes->get('/promo', 'Pages::promo');
-// $routes->get('/newproducts', 'Pages::newproducts');
-// $routes->get('/detail', 'Pages::detail');
-// $routes->get('/mesin', 'Pages::mesin');
-// $routes->get('/machinetool', 'Pages::machinetool');
-// $routes->get('/cuttingtool', 'Pages::cuttingtool');
-// $routes->get('/measuringtool', 'Pages::measuringtool');
-// $routes->get('/handtool', 'Pages::handtool');
-// $routes->get('/cuttingcoolant', 'Pages::cuttingcoolant');
-// $routes->get('/abrasive', 'Pages::abrasive');
 
 $routes->get('abouts', 'Home::about');
 $routes->get('promo', 'Home::promo');
