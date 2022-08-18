@@ -36,9 +36,9 @@
           <div class="row" style="padding-top: 20px;">
             <div class="col-12">
               <div class="row head-panel align-items-center d-flex justify-content-between">
-              <div class="col-8 col-md-9 head-panel__left">
-                <h2 class="head-panel__title">Our Products</h2>
-              </div>
+              <header class="section-header">
+                  <p>Our Products</p>
+              </header>
             </div>
             </div> 
           </div>
