@@ -41,7 +41,7 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
       </a>
 
@@ -78,7 +78,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="<?= site_url('home'); ?>" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
               <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="Logo">
               <span>Cipta Jaya Lestari</span>
             </a>
