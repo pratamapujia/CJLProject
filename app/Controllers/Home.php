@@ -27,6 +27,16 @@ class Home extends BaseController
     return view('about');
   }
 
+  public function promo()
+  {
+    return view('promo');
+  }
+
+  public function newproduct()
+  {
+    return view('newproducts');
+  }
+
   public function machinery()
   {
     $data = $this->barang->getPageMachinery(8);

@@ -14,11 +14,15 @@
   <!-- Favicons -->
   <link href="<?= base_url(); ?>/assets/img/icon/logocjl.png" rel="icon">
 
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url(); ?>/assets/landing/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/css/bootstrap.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/aos/aos.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/remixicon/remixicon.css" rel="stylesheet">
@@ -54,8 +58,8 @@
             </ul>
           </li>
           <li><a class="nav-link" href="<?= site_url('abouts'); ?>">About Us</a></li>
-          <li><a class="nav-link" href="">Promo</a></li>
-          <li><a class="nav-link" href="">New Product</a></li>
+          <li><a class="nav-link" href="<?= site_url('promo'); ?>">Promo</a></li>
+          <li><a class="nav-link" href="<?= site_url('newproducts'); ?>">New Products</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
