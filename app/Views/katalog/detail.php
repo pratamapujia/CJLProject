@@ -61,7 +61,22 @@ foreach ($kategori as $key => $value) {
             <small class="text-muted lh-1 fw-lighter fst-italic">Untuk info lebih lanjut mengenai produk kami silahkan hubungi sales kami!</small>
             <div class="text-start mt-1">
               <a href="https://wa.me/628123170863" target="_blank" class="btn btn-success d-inline-flex align-items-center justify-content-center align-self-center">
-                <img height="20" src="<?= base_url(); ?>/assets/img/icon/whatsapp.png" alt=""> &nbsp; Chat Sales
+                <img height="20" src="<?= base_url(); ?>/assets/img/icon/whatsapp.png" alt=""> &nbsp; Sales Edi
+              </a>
+            </div>
+            <div class="text-start mt-1">
+              <a href="https://wa.me/6281254693810" target="_blank" class="btn btn-success d-inline-flex align-items-center justify-content-center align-self-center">
+                <img height="20" src="<?= base_url(); ?>/assets/img/icon/whatsapp.png" alt=""> &nbsp; Sales Ilyas
+              </a>
+            </div>
+            <div class="text-start mt-1">
+              <a href="https://wa.me/6281331637497" target="_blank" class="btn btn-success d-inline-flex align-items-center justify-content-center align-self-center">
+                <img height="20" src="<?= base_url(); ?>/assets/img/icon/whatsapp.png" alt=""> &nbsp; Sales Rochman
+              </a>
+            </div>
+            <div class="text-start mt-1">
+              <a href="https://wa.me6285232777499" target="_blank" class="btn btn-success d-inline-flex align-items-center justify-content-center align-self-center">
+                <img height="20" src="<?= base_url(); ?>/assets/img/icon/whatsapp.png" alt=""> &nbsp; Sales Dwi
               </a>
             </div>
           </div>
