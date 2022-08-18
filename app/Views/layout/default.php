@@ -81,7 +81,7 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="/" class="logo d-flex align-items-center">
               <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="Logo">
-              <span>Cipta Jaya Lestari</span>
+              <h4>Cipta Jaya Lestari</h4>
             </a>
             <p>Metalworking and Machinery</p>
           </div>
