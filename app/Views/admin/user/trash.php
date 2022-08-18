@@ -55,7 +55,7 @@
                 <td><?= $value->password; ?></td>
                 <td>
                   <a href="<?= site_url('/user/restore/' . $value->id_admin); ?>" class="btn btn-success btn-sm"><i class="bi bi-recycle"></i> Restore</a>
-                  <form action="<?= site_url('/user/hapus/' . $value->id_admin; ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
+                  <form action="<?= site_url('/user/hapus/' . $value->id_admin); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Hapus Permanen</button>
