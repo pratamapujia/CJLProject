@@ -24,6 +24,7 @@
         </button>
       </div>
     </div>
+</div>
     <!-- Company Profile -->
     <section id="about">
             <div class="container px-4" style="padding-top: 20px;">

@@ -17,26 +17,29 @@
   </div>
 </section><!-- End Breadcrumbs -->
 <!-- ======= Carousel Section ======= -->
-<div id="carouselku" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?= base_url(); ?>/assets/img/about1.jpg" class="d-block w-100" alt="about">
+<div class="container-fluid">
+      <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/img/about1.jpg" class="d-block w-100" alt="Gambar 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/about2.jpg" class="d-block w-100" alt="Gambar 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/about3.jpg" class="d-block w-100" alt="Gambar 3" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+          <i class="bi bi-chevron-left" style="color: #067fe2" aria-hidden="true"></i>
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+          <i class="bi bi-chevron-right" style="color: #067fe2" aria-hidden="true"></i>
+          
+        </button>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="<?= base_url(); ?>/assets/img/about2.jpg" class="d-block w-100" alt="about">
-    </div>
-    <div class="carousel-item">
-      <img src="<?= base_url(); ?>/assets/img/about3.jpg" class="d-block w-100" alt="about">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselku" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselku" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 <!-- End Carousel -->
 
