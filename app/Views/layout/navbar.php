@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top mx-auto">
+<nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
             
             <a href="/" class="logo d-flex align-items-center">
