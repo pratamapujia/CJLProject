@@ -11,8 +11,11 @@
 
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul>
-              <li><a class="nav-item" href="<?= site_url('home'); ?>">Home</a></li>
-              <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="<?= site_url('machinery'); ?>">Machinery</a></li>
                 <li><a href="<?= site_url('machinetool'); ?>">Machine Tool</a></li>
