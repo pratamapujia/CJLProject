@@ -6,16 +6,6 @@
 
 <?= $this->section('home'); ?>
 
-<!-- ======= Breadcrumbs ======= -->
-<section class="breadcrumbs">
-  <div class="container">
-
-    <ol>
-      <li><a href="<?= site_url('home'); ?>">Home</a></li>
-      <li>About Us</li>
-    </ol>
-  </div>
-</section><!-- End Breadcrumbs -->
 <!-- ======= Carousel Section ======= -->
 <div class="container-fluid">
       <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
