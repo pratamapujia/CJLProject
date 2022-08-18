@@ -34,7 +34,7 @@
           </div>
 
           <div class="card col-md-3" style="width: 20rem; padding: 10px">
-              <img src="/assets/img/Logo/bosi tools.png" class="card-img-top" alt="BOSI TOOLS" />
+              <img src="/assets/img/Logo/bositools.png" class="card-img-top" alt="BOSI TOOLS" />
           </div>
       </div>
       <div class="row justify-content-center" style="padding-bottom: 10px;">
