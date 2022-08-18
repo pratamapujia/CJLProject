@@ -1,7 +1,9 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg sticky-top bg-light">
       <div class="container">
-            
-          
+                 
+            <a href="/" class="logo d-flex align-items-center">
+              <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
