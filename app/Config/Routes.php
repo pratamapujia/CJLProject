@@ -59,7 +59,7 @@ $routes->get('admin', 'Admin::index');
 
 $routes->get('abouts', 'Home::about');
 $routes->get('promo', 'Home::promo');
-$routes->get('abouts', 'Home::newproduct');
+$routes->get('abouts', 'Home::newproducts');
 $routes->get('machinery', 'Home::machinery');
 $routes->get('machinetool', 'Home::machinetool');
 $routes->get('cuttingtool', 'Home::cuttingtool');
