@@ -42,36 +42,13 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header sticky-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="/" class="logo d-flex align-items-center">
-        <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
-      </a>
-
-      <nav class="navbar">
-        <ul>
-          <li><a class="nav-link" href="<?= site_url('home'); ?>">Home</a></li>
-          <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="<?= site_url('machinery'); ?>">Machinery</a></li>
-              <li><a href="<?= site_url('machinetool'); ?>">Machine Tool</a></li>
-              <li><a href="<?= site_url('cuttingtool'); ?>">Cutting Tool</a></li>
-              <li><a href="<?= site_url('measuringtool'); ?>">Measuring Tool</a></li>
-              <li><a href="<?= site_url('handtool'); ?>">Hand Tool</a></li>
-              <li><a href="<?= site_url('cuttingcoolant'); ?>">Cutting Coolant</a></li>
-              <li><a href="<?= site_url('abrasive'); ?>">Abrasive</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link" href="<?= site_url('abouts'); ?>">About Us</a></li>
-          <li><a class="nav-link" href="<?= site_url('promo'); ?>">Promo</a></li>
-          <li><a class="nav-link" href="<?= site_url('newproducts'); ?>">New Products</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    
+    <?= $this->include('layout/navbar'); ?>
 
     </div>
   </header><!-- End Header -->
 
-  <?= $this->include('layout/navbar'); ?>
+  
 
   <?= $this->renderSection('home'); ?>
 
