@@ -47,8 +47,8 @@
         <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
       </a>
 
-      <nav class="navbar mx-auto">
-        <ul>
+      <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
           <li><a class="nav-link" href="<?= site_url('home'); ?>">Home</a></li>
           <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
