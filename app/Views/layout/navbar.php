@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top bg-light">
+<nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
                  
             <a href="/" class="logo d-flex align-items-center">
@@ -10,7 +10,7 @@
        
 
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul>
               <li><a class="nav-item" href="<?= site_url('home'); ?>">Home</a></li>
               <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
               <ul>

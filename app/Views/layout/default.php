@@ -38,22 +38,13 @@
 <body>
 
   <!-- ======= Header ======= -->
-<<<<<<< HEAD
+
   <header id="header" class="header sticky-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="/" class="logo d-flex align-items-center">
-        <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
-      </a>
+    
       <?= $this->include('layout/navbar'); ?>
 
-    </div>
+    
   </header><!-- End Header -->
-
-
-=======
-
-  <?= $this->include('layout/navbar'); ?>
->>>>>>> 5146ed8812584fb1289011edabcbfc196a1cfd29
 
   <?= $this->renderSection('home'); ?>
 
