@@ -1,7 +1,7 @@
 <?= $this->extend('layout/default'); ?>
 
 <?= $this->section('title'); ?>
-<title>Measuring | CJL</title>
+<title>Measuring Tools | CJL</title>
 <?= $this->endSection(); ?>
 
 <?= $this->section('home'); ?>

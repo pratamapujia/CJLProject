@@ -1,7 +1,7 @@
 <?= $this->extend('layout/default'); ?>
 
 <?= $this->section('title'); ?>
-<title>Machinery | CJL</title>
+<title>CIPTA JAYA LESTARI</title>
 <?= $this->endSection(); ?>
 
 <?= $this->section('home'); ?>
