@@ -25,11 +25,11 @@ foreach ($kategori as $key => $value) {
       $link = 'abrasive';
     }
   }
-  foreach ($merk as $key => $value) {
-    if ($barang->id_merk == $value->id_merk) {
-      $logo = $value->gambar_merk;
-    }
-  }
+  // foreach ($merk as $key => $value) {
+  //   if ($barang->id_merk == $value->id_merk) {
+  //     $logo = $value->gambar_merk;
+  //   }
+  // }
 } ?>
 
 
