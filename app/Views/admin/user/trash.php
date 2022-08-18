@@ -23,10 +23,10 @@
     <div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>"></div>
     <div class="card">
       <div class="card-header">
-        <a href="<?= site_url('user'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
+        <a href="<?= site_url('users'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
         <div class="float-end">
-          <a href="<?= site_url('user/restore'); ?>" class="btn btn-success"><i class="bi bi-recycle"></i> Restore All</a>
-          <form action="<?= site_url('/user/hapus/'); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
+          <a href="<?= site_url('users/restore'); ?>" class="btn btn-success"><i class="bi bi-recycle"></i> Restore All</a>
+          <form action="<?= site_url('users/hapus'); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
             <?= csrf_field(); ?>
             <input type="hidden" name="_method" value="DELETE">
             <button class="btn btn-danger"><i class="bi bi-trash3"></i> Delete All Permanent</button>
@@ -46,7 +46,7 @@
             </tr>
           </thead>
           <tbody>
-            <?php foreach ($user as $key => $value) : ?>
+            <?php foreach ($users as $key => $value) : ?>
               <tr>
                 <td><?= $key + 1; ?></td>
                 <td><?= $value->nama_admin; ?></td>
