@@ -21,13 +21,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url(); ?>/assets/landing/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/assets/landing/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/aos/aos.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link href="<?= base_url(); ?>/assets/landing/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/assets/landing/extension/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/landing/css/style.css" rel="stylesheet">
@@ -146,11 +146,11 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="<?= base_url(); ?>/assets/landing/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/vendor/aos/aos.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="<?= base_url(); ?>/assets/landing/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- extension JS Files -->
+  <script src="<?= base_url(); ?>/assets/landing/extension/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="<?= base_url(); ?>/assets/landing/extension/aos/aos.js"></script>
+  <script src="<?= base_url(); ?>/assets/landing/extension/swiper/swiper-bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/landing/extension/glightbox/js/glightbox.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="<?= base_url(); ?>/assets/landing/js/main.js"></script>
