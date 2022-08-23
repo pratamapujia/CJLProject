@@ -26,7 +26,6 @@
   <link href="<?= base_url(); ?>/assets/landing/extension/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/extension/aos/aos.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/extension/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <link href="<?= base_url(); ?>/assets/landing/extension/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -45,7 +44,7 @@
         <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="">
       </a>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar justify-content-center">
         <ul>
           <li><a class="nav-link" href="<?= site_url('home'); ?>">Home</a></li>
           <li class="dropdown"><a href="javascript:void(0)"><span>Catalogue</span> <i class="bi bi-chevron-down"></i></a>
@@ -81,7 +80,7 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="/" class="logo d-flex align-items-center">
               <img src="<?= base_url(); ?>/assets/img/icon/logocjl.png" alt="Logo">
-              <span>Cipta Jaya Lestari</span>
+              <h2>Cipta Jaya Lestari</h2>
             </a>
             <p>Metalworking and Machinery</p>
           </div>
