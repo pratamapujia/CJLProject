@@ -13,7 +13,7 @@ class Users extends ResourceController
     {
         $this->users = new UsersModel();
     }
-    
+
 
     public function index()
     {
@@ -21,19 +21,19 @@ class Users extends ResourceController
         return view('admin/user/index', $data);
     }
 
-   
+
     public function show($id = null)
     {
         //
     }
 
-    
+
     public function new()
     {
         return view('admin/user/new');
     }
 
-    
+
     public function create()
     {
         // Validasi
@@ -70,13 +70,17 @@ class Users extends ResourceController
             return redirect()->back()->withInput();
         }
 
-        $data = $this->request->getPost();
+        $data = [
+            'nama_admin' => $this->request->getPost('nama_admin'),
+            'email' => $this->request->getPost('email'),
+            'username' => $this->request->getPost('username'),
+            'password' => password_hash($this->request->getPost('password'), PASSWORD_BCRYPT),
+        ];
         $this->users->insert($data);
         return redirect()->to(site_url('users'))->with('pesan', 'Data Berhasil Disimpan');
-        
     }
 
-    
+
     public function edit($id = null)
     {
         $users = $this->users->find($id);
@@ -88,7 +92,7 @@ class Users extends ResourceController
         }
     }
 
-    
+
     public function update($id = null)
     {
         // Validasi
@@ -132,7 +136,7 @@ class Users extends ResourceController
     }
 
 
-    
+
     public function delete($id = null)
     {
         // Hapus Sementara
