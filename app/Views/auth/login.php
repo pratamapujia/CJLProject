@@ -44,6 +44,7 @@
 
   </div>
 
+  <script src="<?= base_url(); ?>/assets/js/bootstrap.js"></script>
   <script src="<?= base_url(); ?>/assets/extensions/jquery/jquery.min.js"></script>
   <script src="<?= base_url(); ?>/assets/extensions/parsleyjs/parsley.min.js"></script>
   <script src="<?= base_url(); ?>/assets/js/pages/parsley.js"></script>
