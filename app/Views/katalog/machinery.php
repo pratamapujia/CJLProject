@@ -25,7 +25,7 @@
           <div class="card shadow-sm">
             <img src="<?= base_url(); ?>/assets/img/barang/<?= $value->gambar_barang; ?>" class="card-img" height="200" alt="">
             <div class="card-img-overlay">
-              <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" height="42" alt="">
+              <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" height="22" alt="">
             </div>
             <div class="card card-body">
               <p class="card-title" style="color:#012970 ;">
