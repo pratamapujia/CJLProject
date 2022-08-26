@@ -24,6 +24,25 @@ class Home extends BaseController
 
   public function about()
   {
+    if ($this->request->getMethod() == 'post') {
+      $username = $this->request->getVar('name');
+      $from = $this->request->getVar('email');
+      $subject = $this->request->getVar('subject');
+      $message = $this->request->getVar('message');
+
+      $email = service('email');
+      $email->setFrom($from, $username);
+      $email->setTo('pujiistiani123@gmail.com');
+      $email->setSubject($subject);
+      $email->setMessage($message);
+
+      if ($email->send()) {
+        return redirect()->to(site_url('abouts'))->with('pesan', 'Pesan Feedback Berhasil Dikirim');
+      } else {
+        $data = $email->printDebugger(['headers']);
+        print_r($data);
+      }
+    }
     return view('about');
   }
 

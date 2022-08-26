@@ -28,6 +28,9 @@
   <link href="<?= base_url(); ?>/assets/landing/extension/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/landing/extension/glightbox/css/glightbox.min.css" rel="stylesheet">
 
+  <!-- Sweet Alert 2 -->
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.css">
+
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>/assets/landing/css/style.css" rel="stylesheet">
 
@@ -145,6 +148,10 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Sweet ALert 2 -->
+  <script src="<?= base_url(); ?>/assets/extensions/jquery/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.js"></script>
+
   <!-- extension JS Files -->
   <script src="<?= base_url(); ?>/assets/landing/extension/bootstrap/js/bootstrap.bundle.js"></script>
   <script src="<?= base_url(); ?>/assets/landing/extension/aos/aos.js"></script>
@@ -153,6 +160,8 @@
 
   <!-- Template Main JS File -->
   <script src="<?= base_url(); ?>/assets/landing/js/main.js"></script>
+
+  <script src="<?= base_url(); ?>/assets/js/my.js"></script>
 
 </body>
 

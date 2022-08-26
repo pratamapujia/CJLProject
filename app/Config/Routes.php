@@ -44,6 +44,8 @@ $routes->addRedirect('/', 'home');
 $routes->get('home2', 'Home::halamanUtama');
 $routes->get('admin', 'Admin::index');
 
+$routes->match(['get', 'post'], 'email', 'Home::about');
+
 $routes->get('abouts', 'Home::about');
 $routes->get('promo', 'Home::promo');
 $routes->get('newproducts', 'Home::newproduct');
