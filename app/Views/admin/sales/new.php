@@ -17,12 +17,6 @@
         <div class="float-start float-lg-end">
           <a href="<?= site_url('sales'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
         </div>
-        <!-- <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-            <li class="breadcrumb-item active" aria-current="page">DataTable</li>
-          </ol>
-        </nav> -->
       </div>
     </div>
   </div>

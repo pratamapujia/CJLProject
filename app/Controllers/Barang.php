@@ -77,13 +77,13 @@ class Barang extends ResourceController
             'id_merk'        => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'Nama barang tidak boleh kosong',
+                    'required'      => 'Merek tidak boleh kosong',
                 ],
             ],
             'id_kategori'        => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'Nama barang tidak boleh kosong',
+                    'required'      => 'Kategori tidak boleh kosong',
                 ],
             ],
         ]);
@@ -162,13 +162,13 @@ class Barang extends ResourceController
             'id_merk'        => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'Nama barang tidak boleh kosong',
+                    'required'      => 'Merek tidak boleh kosong',
                 ],
             ],
             'id_kategori'        => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'Nama barang tidak boleh kosong',
+                    'required'      => 'Kategori tidak boleh kosong',
                 ],
             ],
         ]);

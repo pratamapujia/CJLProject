@@ -73,13 +73,13 @@ class Sales extends ResourceController
             'alamat_sales'      => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'No Telephone tidak boleh kosong',
+                    'required'      => 'Alamat tidak boleh kosong',
                 ],
             ],
             'tgl_lahir_sales'   => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'No Telephone tidak boleh kosong',
+                    'required'      => 'Tanggal lahir tidak boleh kosong',
                 ],
             ],
         ]);
@@ -141,13 +141,13 @@ class Sales extends ResourceController
             'alamat_sales'      => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'No Telephone tidak boleh kosong',
+                    'required'      => 'Alamat tidak boleh kosong',
                 ],
             ],
             'tgl_lahir_sales'   => [
                 'rules'         => 'required',
                 'errors'        => [
-                    'required'      => 'No Telephone tidak boleh kosong',
+                    'required'      => 'Tanggal lahir tidak boleh kosong',
                 ],
             ],
         ]);
