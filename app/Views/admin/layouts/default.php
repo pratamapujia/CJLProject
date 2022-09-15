@@ -79,19 +79,8 @@ use Faker\Provider\Base;
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="dropdown ms-auto">
-                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                  <div class="user-menu d-flex">
-                    <div class="user-name text-end me-3">
-                      <p class="mb-0 text-sm text-gray-600"><b>Administrator</b></p>
-                    </div>
-                  </div>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
-                  <li><a class="dropdown-item" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a></li>
-                </ul>
-              </div>
+            <div class="float-end">
+              <a class="btn btn-danger" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
             </div>
           </div>
         </nav>
