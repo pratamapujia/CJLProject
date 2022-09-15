@@ -15,6 +15,7 @@ use Faker\Provider\Base;
 
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/main/app.css">
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/main/app-dark.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/shared/iconly.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
   <!-- Data Table -->
