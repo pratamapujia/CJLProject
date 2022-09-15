@@ -58,8 +58,8 @@
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
     <div class="container mb-3" data-aos="fade-up">
-      <div class="row gx-0">
-        <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gx-0 d-flex">
+        <div class="col-lg-7 d-flex flex-column justify-content-center order-md-last order-lg-first" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
             <h2>Machinery</h2>
             <p>
@@ -73,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-5 d-flex justify-content-center order-md-first order-lg-last" data-aos="zoom-out" data-aos-delay="200">
           <img src="<?= base_url(); ?>/assets/img/machine.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
@@ -102,8 +102,8 @@
     </div>
 
     <div class="container mb-3" data-aos="fade-up">
-      <div class="row gx-0">
-        <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gx-0 d-flex">
+        <div class="col-lg-7 d-flex flex-column justify-content-center order-md-last order-lg-first" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
             <h2>Cutting Tools</h2>
             <p>
@@ -117,7 +117,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-5 d-flex align-items-center order-md-first order-lg-last" data-aos="zoom-out" data-aos-delay="200">
           <img src="<?= base_url(); ?>/assets/img/cuttingtool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
@@ -146,8 +146,8 @@
     </div>
 
     <div class="container mb-3" data-aos="fade-up">
-      <div class="row gx-0">
-        <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gx-0 d-flex">
+        <div class="col-lg-7 d-flex flex-column justify-content-center order-md-last order-lg-first" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
             <h2>Hand Tools</h2>
             <p>
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-5 d-flex align-items-center order-md-first order-lg-last" data-aos="zoom-out" data-aos-delay="200">
           <img src="<?= base_url(); ?>/assets/img/handtool.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
@@ -179,7 +179,7 @@
               Tersedia berbagai macam - macam Cutting Coolant untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('cuttingcoolants'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('cuttingcoolant'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -190,22 +190,22 @@
     </div>
 
     <div class="container mb-3" data-aos="fade-up">
-      <div class="row gx-0">
-        <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gx-0 d-flex">
+        <div class="col-lg-7 d-flex flex-column justify-content-center order-md-last order-lg-first" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
             <h2>Abrasive</h2>
             <p>
               Tersedia berbagai macam - macam Abrasive untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('abrasives'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('abrasive'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-5 d-flex align-items-center order-md-first order-lg-last" data-aos="zoom-out" data-aos-delay="200">
           <img src="<?= base_url(); ?>/assets/img/abrasive.jpg" class="img-content img-fluid shadow" alt="">
         </div>
       </div>
