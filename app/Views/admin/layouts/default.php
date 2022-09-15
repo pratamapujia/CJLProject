@@ -80,8 +80,32 @@ use Faker\Provider\Base;
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="float-end">
-              <a class="btn btn-danger" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#logout"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</button>
             </div>
+
+            <!-- Modal Logout -->
+            <div class="modal fade text-center modal-borderless" id="logout" tabindex="-1" role="dialog" aria-labelledby="labelLogout" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-danger">
+                    <h5 class="modal-title white" id="labelLogout">Logout
+                    </h5>
+                  </div>
+                  <div class="modal-body">
+                    <h5 class="fw-bold mt-3">Apa anda yakin mau keluar dari halaman ini!</h5>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal">
+                      <i class="bx bx-x d-block d-sm-none"></i>
+                      <span class="d-none d-sm-block">Tidak</span>
+                    </button>
+                    <a class="btn btn-danger" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Modal Logout -->
+
           </div>
         </nav>
       </header>
