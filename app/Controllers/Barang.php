@@ -203,59 +203,41 @@ class Barang extends ResourceController
      */
     public function delete($id = null)
     {
-        $img = $this->barang->find($id);
-        unlink('assets/img/barang/' . $img->gambar_barang);
-        // Hapus Permanen
-        $this->barang->delete($id);
+        // Hapus Sementara
+        $this->barang->where('id_barang', $id)->delete();
         return redirect()->to(site_url('barang'))->with('pesan', 'Data Berhasil Dihapus');
 
-
-        // Hapus Sementara
-        // $this->barang->where('id_barang', $id)->delete();
+        // $img = $this->barang->find($id);
+        // unlink('assets/img/barang/' . $img->gambar_barang);
+        // // Hapus Permanen
+        // $this->barang->delete($id);
         // return redirect()->to(site_url('barang'))->with('pesan', 'Data Berhasil Dihapus');
     }
 
-    // public function trash()
-    // {
-    //     // Menampilkan data yang dihapus sementara
-    //     $data['barang'] = $this->barang->onlyDeleted()->getAll();
-    //     // $data['barang'] = $this->barang->getAll();
-    //     return view('admin/barang/trash', $data);
-    // }
+    public function trash()
+    {
+        // Menampilkan data yang dihapus sementara
+        $data['barang'] = $this->barang->getTrash();
+        return view('admin/barang/trash', $data);
+    }
 
-    // public function restore($id = null)
-    // {
-    //     $this->db = \Config\Database::connect();
-    //     if ($id != null) { // Restore 1 data
-    //         $this->db->table('merk')
-    //             ->set('deleted_at', null, true)
-    //             ->where(['id_merk' => $id])
-    //             ->update();
-    //     } else { // restore all data
-    //         $this->db->table('merk')
-    //             ->set('deleted_at', null, true)
-    //             ->where('deleted_at is NOT NULL', null, false)
-    //             ->update();
-    //     }
-    //     if ($this->db->affectedRows() > 0) {
-    //         return redirect()->to(site_url('merk'))->with('pesan', 'Data Berhasil Dipulihkan');
-    //     }
-    // }
+    public function restore($id = null)
+    {
+        $this->db = \Config\Database::connect();
+        if ($id != null) {
+            $this->db->table('barang')
+                ->set('deleted_at', null, true)
+                ->where(['id_barang' => $id])
+                ->update();
+        } else {
+            $this->db->table('barang')
+                ->set('deleted_at', null, true)
+                ->where('deleted_at is NOT NULL', null, false)
+                ->update();
+        }
 
-    // public function hapus($id = null)
-    // {
-    //     if ($id != null) { //hapus permanen 1 data
-    //         $img = $this->merk->onlyDeleted()->find($id);
-    //         unlink('assets/img/logo/' . $img->gambar_merk);
-    //         $this->merk->delete($id, true);
-    //         return redirect()->to(site_url('merk/trash'))->with('pesan', 'Data Merk Berhasil Dihapus Permanen');
-    //     } else { // hapus permanen all data
-    //         $img = $this->merk->onlyDeleted()->find($id);
-    //         foreach ($img as $img) {
-    //             unlink('assets/img/logo/' . $img->gambar_merk);
-    //         }
-    //         $this->merk->purgeDeleted();
-    //         return redirect()->to(site_url('merk/trash'))->with('pesan', 'Data Merk Berhasil Dihapus Permanen');
-    //     }
-    // }
+        if ($this->db->affectedRows() > 0) {
+            return redirect()->to(site_url('barang'))->with('pesan', 'Data Berhasil Dipulihkan');
+        }
+    }
 }

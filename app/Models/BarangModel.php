@@ -11,7 +11,7 @@ class BarangModel extends Model
     protected $returnType       = 'object';
     protected $allowedFields    = ['nama_barang', 'gambar_barang', 'desk_barang', 'id_merk', 'id_kategori'];
     protected $useTimestamps    = true;
-    // protected $useSoftDeletes   = true;
+    protected $useSoftDeletes   = true;
 
     // Join Table
     function getAll()
@@ -19,9 +19,21 @@ class BarangModel extends Model
         $builder = $this->db->table('barang');
         $builder->join('merk', 'merk.id_merk = barang.id_merk');
         $builder->join('kategori', 'kategori.id_kategori = barang.id_kategori');
+        $builder->where('barang.deleted_at', null);
         $query = $builder->get();
         return $query->getResult();
     }
+
+    function getTrash()
+    {
+        $builder = $this->db->table('barang');
+        $builder->join('merk', 'merk.id_merk = barang.id_merk');
+        $builder->join('kategori', 'kategori.id_kategori = barang.id_kategori');
+        $builder->where('barang.deleted_at IS NOT NULL');
+        $query = $builder->get();
+        return $query->getResult();
+    }
+
     function getMachinery()
     {
         $builder = $this->db->table('barang');

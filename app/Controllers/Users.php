@@ -175,7 +175,7 @@ class Users extends ResourceController
             return redirect()->to(site_url('users/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
         } else { // hapus permanen all data
             $this->users->purgeDeleted();
-            return redirect()->to(site_url('users/trash'))->with('pesan', 'Data Trash Berhasil Dihapus Permanen');
+            return redirect()->to(site_url('users/trash'))->with('pesan', 'Semua Data Trash Berhasil Dihapus Permanen');
         }
     }
 }

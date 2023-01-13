@@ -26,10 +26,10 @@
         <a href="<?= site_url('users'); ?>" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i> Kembali</a>
         <div class="float-end">
           <a href="<?= site_url('users/restore'); ?>" class="btn btn-success"><i class="bi bi-recycle"></i> Restore All</a>
-          <form action="<?= site_url('users/hapus'); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
+          <form action="<?= site_url('users/hapus'); ?>" method="POST" class="d-inline">
             <?= csrf_field(); ?>
             <input type="hidden" name="_method" value="DELETE">
-            <button class="btn btn-danger"><i class="bi bi-trash3"></i> Delete All Permanent</button>
+            <button type="button" class="btn btn-danger btn-delete2"><i class="bi bi-trash3"></i> Delete All Permanent</button>
           </form>
         </div>
       </div>
@@ -39,9 +39,8 @@
             <tr>
               <th>No</th>
               <th>Nama</th>
-              <th>Telepon</th>
-              <th>Alamat</th>
-              <th>Tanggal Lahir</th>
+              <th>Email</th>
+              <th>Username</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -52,13 +51,12 @@
                 <td><?= $value->nama_admin; ?></td>
                 <td><?= $value->email; ?></td>
                 <td><?= $value->username; ?></td>
-                <td><?= $value->password; ?></td>
                 <td>
-                  <a href="<?= site_url('/user/restore/' . $value->id_admin); ?>" class="btn btn-success btn-sm"><i class="bi bi-recycle"></i> Restore</a>
-                  <form action="<?= site_url('/user/hapus/' . $value->id_admin); ?>" method="POST" class="d-inline" onsubmit="return confirm('Data ini akan dihapus secara permanen! Apa anda yakin?')">
+                  <a href="<?= site_url('/users/restore/' . $value->id_admin); ?>" class="btn btn-success btn-sm"><i class="bi bi-recycle"></i> Restore</a>
+                  <form action="<?= site_url('/users/hapus/' . $value->id_admin); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Hapus Permanen</button>
+                    <button type="button" class="btn btn-danger btn-sm btn-delete2"><i class="bi bi-trash"></i> Hapus Permanen</button>
                   </form>
                 </td>
               </tr>

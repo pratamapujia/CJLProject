@@ -34,7 +34,6 @@
               <th>Nama</th>
               <th>E-mail</th>
               <th>Username</th>
-              <th>Password</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -45,13 +44,12 @@
                 <td><?= $value->nama_admin; ?></td>
                 <td><?= $value->email; ?></td>
                 <td><?= $value->username; ?></td>
-                <td><?= $value->password; ?></td>
                 <td>
                   <a href="<?= site_url('users/' . $value->id_admin . '/edit'); ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Data"><i class="bi bi-pencil-square"></i></a>
                   <form action="<?= site_url('users/' . $value->id_admin); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn btn-danger btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm btn-delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
                   </form>
                 </td>
               </tr>

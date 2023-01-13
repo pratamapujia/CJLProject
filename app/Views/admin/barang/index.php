@@ -24,7 +24,7 @@
     <div class="card">
       <div class="card-header">
         <a href="<?= site_url('barang/new'); ?>" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Tambah Data</a>
-        <!-- <a href="</?= site_url('barang/trash'); ?>" class="btn btn-danger float-end" data-bs-toggle="tooltip" data-bs-placement="left" title="Trash"><i class="bi bi-trash3"></i></a> -->
+        <a href="<?= site_url('barang/trash'); ?>" class="btn btn-danger float-end" data-bs-toggle="tooltip" data-bs-placement="left" title="Trash"><i class="bi bi-trash3"></i></a>
       </div>
       <div class="card-body">
         <table class="table table-striped" id="table1">
@@ -57,7 +57,7 @@
                   <form action="<?= site_url('barang/' . $value->id_barang); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn btn-danger btn-sm btn-delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm btn-delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
                   </form>
                 </td>
               </tr>

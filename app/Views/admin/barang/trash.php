@@ -62,11 +62,11 @@
                 </td>
                 <td><?= $value->nama_kategori; ?></td>
                 <td>
-                  <a href="<?= site_url('barang/' . $value->id_barang . '/edit'); ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Data"><i class="bi bi-pencil-square"></i></a>
-                  <form action="<?= site_url('barang/' . $value->id_barang); ?>" method="POST" class="d-inline">
+                  <a href="<?= site_url('/barang/restore/' . $value->id_barang); ?>" class="btn btn-success btn-sm"><i class="bi bi-recycle"></i> Restore</a>
+                  <form action="<?= site_url('/barang/hapus/' . $value->id_barang); ?>" method="POST" class="d-inline">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn btn-danger btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus Data"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm btn-delete2"><i class="bi bi-trash"></i> Hapus Permanen</button>
                   </form>
                 </td>
               </tr>
