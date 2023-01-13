@@ -23,7 +23,9 @@ use Faker\Provider\Base;
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/pages/simple-datatables.css">
 
   <!-- Sweet Alert 2 -->
+  <script src="<?= base_url(); ?>/assets/extensions/jquery/jquery.min.js"></script>
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.css">
+  <script src="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.js"></script>
 
   <link rel="shortcut icon" href="<?= base_url(); ?>/assets/img/icon/logocjl.png" type="image/x-icon">
 </head>
@@ -130,9 +132,6 @@ use Faker\Provider\Base;
   <script src="<?= base_url(); ?>/assets/extensions/simple-datatables/umd/simple-datatables.js"></script>
   <script src="<?= base_url(); ?>/assets/js/pages/simple-datatables.js"></script>
 
-  <!-- Sweet ALert 2 -->
-  <script src="<?= base_url(); ?>/assets/extensions/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.js"></script>
 
   <!-- Select -->
   <script src="<?= base_url(); ?>/assets/extensions/choices.js/public/assets/scripts/choices.js"></script>
@@ -140,30 +139,6 @@ use Faker\Provider\Base;
 
   <!-- Custom -->
   <script src="<?= base_url(); ?>/assets/js/my.js"></script>
-  <!-- <script>
-    $(document).ready(function() {
-      const Toast = Swal.mixin({
-        toast: true,
-        position: 'top',
-        background: '#4E9F3D',
-        iconColor: '#fff',
-        color: '#fff',
-        showConfirmButton: false,
-        timer: 3000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', Swal.stopTimer)
-          toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-      })
-      Toast.fire({
-        icon: 'success',
-        title: 'lalala',
-      })
-      </?php if (session()->getFlashdata('pesan')) { ?>
-      </?php } ?>
-    });
-  </script> -->
 
 </body>
 
