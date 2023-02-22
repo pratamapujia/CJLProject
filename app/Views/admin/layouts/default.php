@@ -28,6 +28,7 @@ use Faker\Provider\Base;
   <script src="<?= base_url(); ?>/assets/extensions/sweetalert2/sweetalert2.min.js"></script>
 
   <link rel="shortcut icon" href="<?= base_url(); ?>/assets/img/icon/logocjl.png" type="image/x-icon">
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/my.css">
 </head>
 
 <body>
