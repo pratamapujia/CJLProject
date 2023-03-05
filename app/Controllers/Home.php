@@ -58,7 +58,7 @@ class Home extends BaseController
 
   public function machinery()
   {
-    $data = $this->barang->getPageMachinery(8);
+    $data = $this->barang->getPageMachinery(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -67,7 +67,7 @@ class Home extends BaseController
 
   public function machinetool()
   {
-    $data = $this->barang->getPagemachinetool(8);
+    $data = $this->barang->getPagemachinetool(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -76,7 +76,7 @@ class Home extends BaseController
 
   public function cuttingtool()
   {
-    $data = $this->barang->getPagecuttingtool(8);
+    $data = $this->barang->getPagecuttingtool(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -85,7 +85,7 @@ class Home extends BaseController
 
   public function measuringtool()
   {
-    $data = $this->barang->getPagemeasuringtool(8);
+    $data = $this->barang->getPagemeasuringtool(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -94,7 +94,7 @@ class Home extends BaseController
 
   public function handtool()
   {
-    $data = $this->barang->getPagehandtool(8);
+    $data = $this->barang->getPagehandtool(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -103,7 +103,7 @@ class Home extends BaseController
 
   public function cuttingcoolant()
   {
-    $data = $this->barang->getPagecuttingcoolant(8);
+    $data = $this->barang->getPagecuttingcoolant(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
@@ -112,7 +112,7 @@ class Home extends BaseController
 
   public function abrasive()
   {
-    $data = $this->barang->getPageabrasive(8);
+    $data = $this->barang->getPageabrasive(12);
     // $data['pager'] = $this->barang->pager;
     // dd($data);
 
