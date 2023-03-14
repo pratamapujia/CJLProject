@@ -31,15 +31,17 @@
       <?php foreach ($barang as $key => $value) : ?>
         <div class="col-sm-4 col-md-4 col-lg-2 mb-4">
           <div class="card shadow-sm">
-            <img src="<?= base_url(); ?>/assets/img/barang/<?= $value->gambar_barang; ?>" class="card-img" height="200" alt="">
-            <div class="card-img-overlay">
-              <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" height="22" alt="">
+            <div class="card-img-overlay" style="height: 22pt;">
+              <img src="<?= base_url(); ?>/assets/img/logo/<?= $value->gambar_merk; ?>" height="22" alt="Merek">
             </div>
-            <div class="card card-body">
+            <img src="<?= base_url(); ?>/assets/img/barang/<?= $value->gambar_barang; ?>" class="card-img-top" height="200" alt="G.Barang">
+            <div class="card-body text-center">
               <p class="card-title">
                 <?= $value->nama_barang; ?>
               </p>
-              <a href="<?= site_url('katalog/detail/' . $value->id_barang); ?>" class="btn btn-primary">Lihat Detail</a>
+              <div class="d-grid gap-2">
+                <a href="<?= site_url('katalog/detail/' . $value->id_barang); ?>" class="btn btn-primary">Lihat Detail</a>
+              </div>
             </div>
           </div>
         </div>

@@ -6,6 +6,13 @@
 
 <?= $this->section('main'); ?>
 
+<style>
+.card-home:hover{
+  box-shadow: 2px 3px 3px #e9ecef;
+  transform: scale(1.05);
+}
+</style>
+
 <div class="page-heading">
   <div class="page-title">
     <div class="row">
@@ -28,8 +35,8 @@
 <div class="page content">
   <section class="row">
     <div class="col-6 col-lg-3 col-md-6">
-      <a class="card-home" href="<?= site_url('barang'); ?>">
-        <div class="card">
+      <a href="<?= site_url('barang'); ?>">
+        <div class="card card-home">
           <div class="card-body px-4 py-4-5">
             <div class="row">
               <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
@@ -48,7 +55,7 @@
     </div>
     <div class="col-6 col-lg-3 col-md-6">
       <a href="<?= site_url('sales'); ?>">
-        <div class="card">
+        <div class="card card-home">
           <div class="card-body px-4 py-4-5">
             <div class="row">
               <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
@@ -67,7 +74,7 @@
     </div>
     <div class="col-6 col-lg-3 col-md-6">
       <a href="<?= site_url('merk'); ?>">
-        <div class="card">
+        <div class="card card-home">
           <div class="card-body px-4 py-4-5">
             <div class="row">
               <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
@@ -86,7 +93,7 @@
     </div>
     <div class="col-6 col-lg-3 col-md-6">
       <a href="<?= site_url('kategori'); ?>">
-        <div class="card">
+        <div class="card card-home">
           <div class="card-body px-4 py-4-5">
             <div class="row">
               <div class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start ">
