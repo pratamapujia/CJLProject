@@ -71,7 +71,7 @@ use Faker\Provider\Base;
 
       </div>
     </div>
-    <div id="main" class='layout-navbar'>
+    <div id="main" class='layout-navbar navbar-fixed'>
       <header class='mb-3'>
         <nav class="navbar navbar-expand navbar-light navbar-top">
           <div class="container-fluid">
