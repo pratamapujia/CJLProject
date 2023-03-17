@@ -45,6 +45,6 @@ class Auth extends BaseController
   public function logout()
   {
     session()->remove('id_admin');
-    return redirect()->to(site_url('home'));
+    return redirect()->to(site_url('login'));
   }
 }

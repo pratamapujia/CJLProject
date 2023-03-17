@@ -88,8 +88,8 @@ use Faker\Provider\Base;
             </div>
 
             <!-- Modal Logout -->
-            <div class="modal fade text-center modal-borderless" id="logout" tabindex="-1" role="dialog" aria-labelledby="labelLogout" aria-hidden="true" data-bs-backdrop="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal fade text-center modal-borderless" id="logout" tabindex="-1" role="dialog" aria-labelledby="labelLogout" aria-hidden="true" data-bs-backdrop="false">
+              <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header bg-danger">
                     <h5 class="modal-title white" id="labelLogout">Logout
@@ -103,7 +103,7 @@ use Faker\Provider\Base;
                       <i class="bx bx-x d-block d-sm-none"></i>
                       <span class="d-none d-sm-block">Tidak</span>
                     </button>
-                    <a class="btn btn-danger" href="</?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
+                    <a class="btn btn-danger" href="<?= site_url('auth/logout'); ?>"><i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a>
                   </div>
                 </div>
               </div>
