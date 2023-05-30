@@ -91,7 +91,7 @@
               Tersedia berbagai macam - macam tools untuk mesin yang anda punya!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('machinetools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('machinetool'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -110,7 +110,7 @@
               Tersedia berbagai macam - macam Cutting Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('cuttingtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('cuttingtool'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -135,7 +135,7 @@
               Tersedia berbagai macam - macam Measuring Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('measuringtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('measuringtool'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -154,7 +154,7 @@
               Tersedia berbagai macam - macam Hand Tools untuk anda!
             </p>
             <div class="text-center text-lg-start">
-              <a href="<?= site_url('handtools'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="<?= site_url('handtool'); ?>" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Lihat Disini</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
