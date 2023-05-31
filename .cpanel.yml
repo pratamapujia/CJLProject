@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mediasol/CJLPublic
+    - export DEPLOYPATH=/home/mediasol/CJLProject/public
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
