@@ -164,10 +164,9 @@
       </div>
 
       <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-        <div class="info">
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.940801175178!2d112.76988009938346!3d-7.247578198504547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f998e9faaaab%3A0x5a12e7e7c8ce4369!2sCV.%20CIPTA%20JAYA%20LESTARI!5e0!3m2!1sen!2sid!4v1661408605561!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.946223979288!2d112.76779981070506!3d-7.2469608927293105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f998e9faaaab%3A0x5a12e7e7c8ce4369!2sCV.%20CIPTA%20JAYA%20LESTARI!5e0!3m2!1sen!2sid!4v1688643895256!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
 
       </div>
 
